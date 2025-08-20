@@ -39,8 +39,8 @@ Unlike traditional VPNs, there’s no central authority. Nodes are community-dri
 ## 🤝 Join the Community
 We’re building a network owned by its users. Be part of the future of private connectivity.  
 
-💬 [Join Discord](https://discord.gg/xxxx)  
-🐦 [Follow on Twitter/X](https://x.com/xxxx)  
+💬 [Join Discord](https://discord.gg/w4xvwUQg)  
+🐦 [Follow on Twitter/X](https://x.com/LastParadox__) 
 
 ---
 
