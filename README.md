@@ -1,4 +1,4 @@
-![LastParadox Banner](https://freeimage.host/i/K9fsmF9) 
+![LastParadox Banner](https://raw.githubusercontent.com/Lastexitfromnowhere/Lastparad0xvP/refs/heads/main/banner.png)
 # 👾 LastParadox
 
 Welcome to **LastParadox**, a decentralized VPN network built for privacy, resilience, and community.
