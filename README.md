@@ -15,7 +15,7 @@ Unlike traditional VPNs, there’s no central authority. Nodes are community-dri
 ## 📖 Key Resources
 - 📜 [Whitepaper](https://github.com/Lastexitfromnowhere/Lastparad0xvP/blob/main/WHITEPAPER.md)
 - 📊 [Tokenomics](https://github.com/Lastexitfromnowhere/Lastparad0xvP/blob/main/TOKENOMICS.md)
-- 🛠 [Example Integration](https://github.com/Lastexitfromnowhere/lastparadoxpresale))  
+- 🛠 [Example Integration](https://github.com/Lastexitfromnowhere/MintNFTui) 
 
 ---
 
