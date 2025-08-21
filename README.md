@@ -1,3 +1,4 @@
+![LastParadox Banner](https://freeimage.host/i/K9fsmF9) 
 # 👾 LastParadox
 
 Welcome to **LastParadox**, a decentralized VPN network built for privacy, resilience, and community.
