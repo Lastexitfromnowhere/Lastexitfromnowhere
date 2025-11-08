@@ -1,75 +1,96 @@
-<div align="center">
+<p align="center">
+  <img src="https://landing-last.vercel.app/assets/banner2.png" alt="LastParadox Banner" width="100%"/>
+</p>
 
-![LastParadox Banner](https://raw.githubusercontent.com/Lastexitfromnowhere/Lastparad0xvP/refs/heads/main/banner.png)
-
-# 👾 **LastParadox**
-### _A decentralized VPN built for privacy, resilience & community._
-
-🌐 [**Website**](https://lastparadox.xyz) • 🎟 [**Mint Access**](https://mint.lastparadox.xyz) • 🔐 [**ZK Auth Portal**](https://zk.lastparadox.xyz)  
-💬 [**Discord**](https://discord.gg/w4xvwUQg) • 🐦 [**X (Twitter)**](https://x.com/LastParadox__)
-
-</div>
+<p align="center"><em>
+Decentralized Privacy Network powered by Tor, HyperNodes, HyperBee & Zero-Knowledge Proofs — governed by the LastParadox DAO
+</em></p>
 
 ---
 
-## 🔥 What is LastParadox?
+<h2 align="center">🚀 Vision</h2>
 
-**LastParadox** is a new generation **decentralized VPN (dVPN)** built around the **Tor protocol** and a **peer-to-peer Distributed Hash Table (DHT)**.
+<p align="center">
+<strong>LastParadox</strong> is becoming a fully decentralized <strong>Privacy Network DAO</strong>, giving users sovereignty over their identity, traffic, and online privacy.<br/>
+Our mission is simple:
+</p>
 
-There are **no central servers**, **no WireGuard layer**, and **no trusted intermediaries** — only **encrypted Tor circuits**, **ZK-based authentication**, and a **fully decentralized peer network**.
-
-Every user can:
-
-🟢 **Host** — share bandwidth through their own `.onion` node  
-🧩 **Client** — connect to the best peers automatically published via the DHT  
+<p align="center"><strong>Build a censorship-resistant, community-owned privacy layer for the internet.</strong></p>
 
 ---
 
-## 📖 Key Resources
+<h2 align="center">🔑 Key Features</h2>
 
-📜 [**Whitepaper**](https://github.com/Lastexitfromnowhere/Lastparad0xvP/blob/main/WHITEPAPER.md)  
-📊 [**Tokenomics**](https://github.com/Lastexitfromnowhere/Lastparad0xvP/blob/main/TOKENOMICS.md)  
-🔐 [**ZK Portal**](https://zk.lastparadox.xyz) → Generates **zero-knowledge keys** for secure, anonymous authentication  
-🛠 [**Example Integration**](https://github.com/Lastexitfromnowhere/MintNFTui)
+<p align="center">A modern, decentralized privacy stack combining Tor anonymity, Hyper-core networking, and Zero-Knowledge authentication.</p>
 
----
-
-## ✨ Features
-
-🧅 **Tor-based encrypted routing** → every connection uses private `.onion` relays  
-🌐 **DHT peer discovery** → no centralized API or database  
-🧠 **ZK-SNARK authentication** → users prove identity & access without revealing data  
-💰 **Reward system** → uptime and reliability earn **RWRD tokens**  
-🎟 **NFT-gated access** → special privileges and presale entry  
-👥 **Community governance** → token holders shape the network’s evolution  
+- 🧅 <strong>Tor Integration</strong> — privacy by default with <code>.onion</code> circuit routing  
+- 🌐 <strong>HyperNodes</strong> — replacing DHT with encrypted, low-latency P2P routing  
+- 🗄️ <strong>HyperBee Storage</strong> — decentralized metadata & protocol state  
+- 🔐 <strong>Zero-Knowledge Authentication</strong> — zk-SNARK login with no identity  
+- 💰 <strong>RWRD Rewards System</strong> — earn for uptime, hosting & contribution  
+- 🛡️ <strong>Premium TUN Mode</strong> — full kernel VPN through Tor  
+- 🧩 <strong>DAO Governance</strong> — proposals, treasury, voting, protocol upgrades  
+- 🖥️ <strong>Cross-Platform App</strong> — Tauri desktop app + LP-daemon + landing
 
 ---
 
-## 📌 Ecosystem
+<h2 align="center">🧱 Architecture Overview</h2>
 
-| Component | Description |
-|------------|-------------|
-| 🖥 **App (Tauri Desktop)** | Manage Tor, switch Host/Client, monitor status |
-| ⚙️ **Daemon (Rust)** | Handles Tor circuits, DHT publication, SOCKS5 relay |
-| 📊 **Dashboard** | View uptime, peers, and reward metrics |
-| 🔐 **ZK Portal** | [zk.lastparadox.xyz](https://zk.lastparadox.xyz) — generates & verifies ZK keys |
-| 🎟 **Minting Page** | [mint.lastparadox.xyz](https://mint.lastparadox.xyz) |
-| 💾 **GitHub Repos** | Open-sourced progressively |
+<p align="center">A distributed privacy network built on the Hyper stack.</p>
+
+<p align="center">
+<pre>
+
+                   ┌────────────────────────────────────┐
+                   │            LASTPARADOX              │
+                   │   Decentralized Privacy Network DAO │
+                   └────────────────────────────────────┘
+                                 │
+        ┌────────────────────────┴────────────────────────┐
+        │                                                 │
+ HyperNodes (Routing)                         Zero-Knowledge Proofs (Auth)
+        │                                                 │
+        └────────────────────────┬────────────────────────┘
+                                 │
+                         HyperBee Storage
+         (rewards, metadata, nodes, protocol state)
+                                 │
+        ┌────────────────────────┴────────────────────────┐
+        │                                                 │
+       Tor Engine                               RWRD Tokenomics
+   (proxy + kernel TUN)               (rewards, governance, incentives)
+
+</pre>
+</p>
 
 ---
 
-## 🤝 Join the Community
+<h2 align="center">📄 Resources</h2>
 
-We’re building a **truly decentralized private network** — powered by Tor, verified by ZK, and distributed through DHT.  
-Become part of a community that values **privacy, transparency, and user ownership.**
-
-💬 [**Join Discord**](https://discord.gg/w4xvwUQg)  
-🐦 [**Follow on Twitter/X**](https://x.com/LastParadox__)
+<p align="center">
+<a href="https://lastparadox.xyz">🌐 Official Website</a> •
+<a href="https://github.com/Lastexitfromnowhere/Lastparad0xvP/blob/main/WHITEPAPER.md">📖 Whitepaper</a> •
+<a href="https://github.com/Lastexitfromnowhere/Lastparad0xvP/blob/main/TOKENOMICS.md">📊 Tokenomics</a> •
+<a href="https://zk.lastparadox.xyz">🔐 ZK Auth Portal</a>
+</p>
 
 ---
 
-<div align="center">
+<h2 align="center">🤝 Community</h2>
 
-### 🚀 _Powered by Tor • Verified by ZK • Distributed by DHT • Owned by the Community_
+<p align="center">
+<a href="https://discord.gg/w4xvwUQg">Discord</a> •
+<a href="https://x.com/LastParadox__">X (Twitter)</a> •
+<a href="https://github.com/Lastexitfromnowhere">GitHub</a>
+</p>
 
-</div>
+---
+
+<h2 align="center">📜 License</h2>
+
+<p align="center">
+MIT License © 2025 LastParadox DAO<br/>
+contact@lastparadox.xyz • core.bardage@gmail.com<br/>
+Founder & CEO: <strong>Etheve Stéphane</strong>
+</p>
+
