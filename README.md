@@ -165,7 +165,7 @@ Phase 2 ░░░░░░░░░░░░░░░░░░░░  0%
 <table>
 <tr>
 <td align="center">
-<a href="[https://github.com/Lastexitfromnowhere/Lastparad0xvP/blob/main/WHITEPAPER.md">
+<a href="./WHITEPAPER_FINAL.md">
 <img src="https://img.shields.io/badge/📄-Whitepaper-7D4698?style=for-the-badge" alt="Whitepaper"/>
 </a>
 </td>
@@ -184,7 +184,40 @@ Phase 2 ░░░░░░░░░░░░░░░░░░░░  0%
 
 ---
 
+## 🛠️ Quick Start
 
+### Prerequisites
+- Windows 10/11 (macOS/Linux coming soon)
+- Administrator privileges (for DNS/Firewall features)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Lastexitfromnowhere/Lastparad0xvP.git
+cd Lastparad0xvP
+
+# Windows
+.\install.bat
+
+# Or download from Releases
+```
+
+### Development
+
+```bash
+# Flutter App
+cd lp-flutter
+flutter pub get
+flutter run -d windows
+
+# Daemon
+cd lp-daemon/hyper-node
+npm install
+npm run dev
+```
+
+---
 
 ## ⚠️ Disclaimer
 
