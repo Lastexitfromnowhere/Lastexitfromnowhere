@@ -165,7 +165,7 @@ Phase 2 ░░░░░░░░░░░░░░░░░░░░  0%
 <table>
 <tr>
 <td align="center">
-<a href="./WHITEPAPER_FINAL.md">
+<a href="[./WHITEPAPER_FINAL.md](https://github.com/Lastexitfromnowhere/Lastparad0xvP/blob/main/WHITEPAPER.md)">
 <img src="https://img.shields.io/badge/📄-Whitepaper-7D4698?style=for-the-badge" alt="Whitepaper"/>
 </a>
 </td>
