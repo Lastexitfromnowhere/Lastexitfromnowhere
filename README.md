@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://lastparadox.xyz/logo.png" alt="LastParadox Banner" width="100%"/>
+  <img src="https://lastparadox.xyz/logo.png" alt="LastParadox" width="100%"/>
 </p>
 
 <p align="center">
@@ -21,23 +21,26 @@
 </p>
 
 <h3 align="center">
-  <em>Privacy is not a privilege. It's a right.</em>
+  <em>Privacy is not a luxury. It's a right — especially for those who need it most.</em>
 </h3>
 
 <p align="center">
-  <strong>Decentralized VPN • Tor-Powered • Zero-Knowledge • Community-Governed</strong>
+  <strong>Decentralized VPN • Tor-Powered • Zero-Knowledge • Fair Pay Model</strong>
 </p>
 
 ---
 
 ## 🚀 Vision
 
-**LastParadox** is a next-generation **decentralized privacy network** that replaces centralized trust with cryptographic guarantees.
+**LastParadox** is a next-generation **decentralized privacy network** built for those who can't afford to be watched.
 
 Unlike traditional VPNs that ask you to *trust* their "no-logs" promises, LastParadox makes logging **technically impossible**.
 
+**Free for journalists, human rights defenders, NGOs, and activists in high-risk environments.**
+Those who can contribute fund access for those who can't. No investors. No ads. No data sold.
+
 <p align="center">
-  <strong>Build a censorship-resistant, community-owned privacy layer for the internet.</strong>
+  <strong>Privacy funded by the community — for those who need it most.</strong>
 </p>
 
 ---
@@ -142,21 +145,27 @@ Phase 2 ░░░░░░░░░░░░░░░░░░░░  0%
 
 ---
 
-## 💎 Contribution Tiers
+## 💙 Fair Pay Model
 
-> ⚠️ **Important:** Contributions are **service payments**, not investments.  
-> See [LEGAL.md](./LEGAL.md) for full terms.
+> Privacy should be accessible to everyone — especially those in danger.
 
-| Tier | Price | What You Get |
-|------|-------|--------------|
-| 🔹 **Supporter** | $4/year | Basic proxy access, community membership |
-| 🔸 **Governance** | $9/year | Full app access, voting rights |
-| 💎 **Builder** | $50+ | Early features, priority voice, builder recognition |
+**How it works:** Those who can contribute fund access for those who can't.
+Every tier gives **identical access**. No premium features hidden behind a paywall.
+
+| | Access |
+|---|---|
+| 🆓 **Free** | Full access — journalists, activists, NGOs, anyone who can't afford it |
+| 💙 **$3** | One-time contribution — fund someone else's access |
+| 💙 **$15** | Recommended — covers ~5 free users |
+| 💙 **$30** | Builder-level support |
 
 <p align="center">
-  <strong>No tokens. No presale. No promises.</strong><br/>
-  <sub>Just working software and community governance.</sub>
+  <strong>One-time · No subscription · No auto-renew · Same product for all.</strong><br/>
+  <sub>No investors. No ads. No data sold.</sub>
 </p>
+
+**Apply for free access →** [lastparadox.xyz/press](https://lastparadox.xyz/press)
+*(Journalists, war correspondents, human rights defenders, NGOs, civil society orgs)*
 
 ---
 
@@ -184,14 +193,12 @@ Phase 2 ░░░░░░░░░░░░░░░░░░░░  0%
 
 ---
 
-
-
 ## ⚠️ Disclaimer
 
 > **This is experimental software.** Use at your own risk.
 >
 > - No absolute privacy guarantee
-> - VPN/Tor may be restricted in some jurisdictions  
+> - VPN/Tor may be restricted in some jurisdictions
 > - You are responsible for local law compliance
 > - No tokens exist — contributions are service payments
 >
@@ -227,7 +234,7 @@ Phase 2 ░░░░░░░░░░░░░░░░░░░░  0%
 
 <p align="center">
   <sub>© 2025 LastParadox Project</sub><br/>
-  <sub>Founder: <strong>Last_Exit</strong></sub><br/>
+  <sub>Founder: <strong>Stéphane Ethève</strong></sub><br/>
   <sub>All rights reserved — See <a href="./LEGAL.md">LEGAL.md</a></sub>
 </p>
 
