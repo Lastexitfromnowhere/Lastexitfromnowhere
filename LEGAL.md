@@ -1,8 +1,8 @@
 # ⚖️ Legal Notice & Disclaimer
 
-**Document Status:** Active Legal Notice  
-**Last Updated:** December 2025  
-**Version:** 2.0
+**Document Status:** Active Legal Notice
+**Last Updated:** March 30, 2026
+**Version:** 3.0
 
 ---
 
@@ -63,27 +63,39 @@ Users should consult qualified professionals for such matters.
 
 ---
 
-## 3. Contribution Tiers — Service Access Only
+## 3. Fair Pay Model — Service Access Only
 
 ### 3.1 Nature of Contributions
 
-Payments for **Supporter**, **Governance Member**, and **Builder** tiers are:
+LastParadox operates on a **Fair Pay model**: full access is free for those who need it,
+and voluntary contributions from those who can afford it fund access for those who can't.
+
+Payments made at any contribution level are:
 
 | What They ARE | What They ARE NOT |
 |---------------|-------------------|
-| Service subscriptions | Investment contracts |
+| Voluntary service contributions | Investment contracts |
 | Software access payments | Token purchases |
-| Development support donations | Securities |
-| Governance participation fees | Profit-sharing agreements |
-| Community membership dues | Financial instruments |
+| Community solidarity funding | Securities |
+| One-time payments (no subscription) | Profit-sharing agreements |
+| Support for the free-access program | Financial instruments |
 
-### 3.2 What Contributors Receive
+### 3.2 Free Access Program
 
-Contributors receive **only**:
-- Access to software features (according to tier)
-- Participation rights in governance discussions
-- Community membership status
-- The services explicitly described at time of contribution
+LastParadox provides **free full access** to:
+- Journalists and war correspondents
+- Human rights defenders
+- NGOs and civil society organizations
+- Activists operating in high-risk environments
+- Anyone who cannot afford to contribute
+
+Free access is not a reduced tier. It gives identical access to all features.
+Application: [lastparadox.xyz/press](https://lastparadox.xyz/press)
+
+### 3.3 What Contributors Receive
+
+All users — whether paying or free — receive **identical product access**.
+Contributors additionally support the sustainability of the free-access program.
 
 Contributors do **NOT** receive:
 - Tokens or cryptocurrencies
@@ -92,9 +104,21 @@ Contributors do **NOT** receive:
 - Guaranteed future benefits
 - Refundable investments
 
-### 3.3 No Refund as Investment Redemption
+### 3.4 Contribution Levels
 
-Contributions are payments for services rendered. Any refund policies follow standard software subscription terms and are **not** investment redemptions.
+| Level | Amount | Purpose |
+|-------|--------|---------|
+| Free | $0 | Full access — no justification required |
+| Solidarity | $3 | One-time · funds ~1 free user |
+| Recommended | $15 | One-time · funds ~5 free users |
+| Builder | $30 | One-time · maximum community support |
+
+All contributions are one-time payments. No subscription. No auto-renewal.
+
+### 3.5 No Refund as Investment Redemption
+
+Contributions are payments for services rendered and community support.
+Any refund policies follow standard software terms and are **not** investment redemptions.
 
 ---
 
@@ -348,7 +372,8 @@ By using LastParadox software or services, you acknowledge that:
 - [x] You accept all risks associated with use
 - [x] You are solely responsible for legal compliance in your jurisdiction
 - [x] You understand no tokens exist and none are guaranteed
-- [x] You understand contributions are service payments, not investments
+- [x] You understand contributions are voluntary service payments, not investments
+- [x] You understand that free access is available and that paid contributions fund others
 
 ---
 
@@ -358,6 +383,7 @@ By using LastParadox software or services, you acknowledge that:
 |---------|------|---------|
 | 1.0 | 2024 | Initial release |
 | 2.0 | December 2025 | Complete rewrite: removed "Investor" terminology, added comprehensive disclaimers, liability limitations, and user responsibilities |
+| 3.0 | March 30, 2026 | Fair Pay model: replaced tiered subscriptions with one-time solidarity contributions + free access program for journalists, NGOs, and activists |
 
 ---
 
@@ -368,4 +394,3 @@ By using LastParadox software or services, you acknowledge that:
 *Privacy-first. Transparency-first. Compliance-first.*
 
 </p>
-
