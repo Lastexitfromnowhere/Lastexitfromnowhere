@@ -11,8 +11,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Technical%20Draft-7D4698?style=for-the-badge" alt="Status"/>
-  <img src="https://img.shields.io/badge/Version-2.0--draft-blue?style=for-the-badge" alt="Version"/>
-  <img src="https://img.shields.io/badge/Updated-December%202025-green?style=for-the-badge" alt="Updated"/>
+  <img src="https://img.shields.io/badge/Version-2.1--draft-blue?style=for-the-badge" alt="Version"/>
+  <img src="https://img.shields.io/badge/Updated-March%202026-green?style=for-the-badge" alt="Updated"/>
 </p>
 
 <p align="center">
@@ -27,7 +27,8 @@
 
 <p align="center">
   <em>🔐 Zero-Knowledge authentication runs locally inside the Desktop app</em><br/>
-  <em>💎 Premium Feature: Full-kernel TUN mode for system-wide traffic routing</em>
+  <em>💎 Premium Feature: Full-kernel TUN mode for system-wide traffic routing</em><br/>
+  <em>🆓 Free access for journalists, NGOs, and activists in high-risk environments</em>
 </p>
 
 ---
@@ -87,7 +88,7 @@ This document was collaboratively written by the core development team.
 ### Part III: Features & Services
 - [8. VPN Features](#8-vpn-features)
 - [9. Identity Shield](#9-identity-shield)
-- [10. Tier System](#10-tier-system)
+- [10. Access Model](#10-access-model)
 
 </td>
 <td width="50%">
@@ -132,7 +133,8 @@ The public internet is increasingly centralized, exposing users to surveillance,
 </p>
 
 <p align="center">
-  <em>Our mission: <strong>Give back control of connectivity to the users</strong> — privacy-first, censorship-resistant, community-governed.</em>
+  <em>Our mission: <strong>Give back control of connectivity to the users</strong> — privacy-first, censorship-resistant, community-governed.</em><br/>
+  <em>Free for those who need it most. Sustained by those who can contribute.</em>
 </p>
 
 ### 🔄 Key Innovations
@@ -144,9 +146,10 @@ The public internet is increasingly centralized, exposing users to surveillance,
 | **Data Storage** | Central Database | P2P Hypercore Replication |
 | **Traffic Routing** | Single-Hop | Multi-Hop (Tor Onion Routing) |
 | **DNS Resolution** | Provider DNS | Tor DNS (Leak Protected) |
-| **Payment** | Credit Card / KYC | Cryptocurrency (Solana) |
+| **Payment** | Credit Card / KYC | Fair Pay (Free + voluntary) |
 | **User Interface** | Web Dashboard | Local Desktop Application |
 | **Verification** | Trust Promises | Cryptographic Proofs |
+| **Access Policy** | Pay to access | Free for NGOs/press/activists |
 
 ---
 
@@ -176,6 +179,10 @@ The public internet is increasingly centralized, exposing users to surveillance,
 </td>
 </tr>
 </table>
+
+### ❌ Access Inequality
+
+Privacy tools are often unaffordable for the people who need them most — journalists in conflict zones, human rights defenders, NGOs operating in authoritarian states. A subscription model excludes precisely those users.
 
 ---
 
@@ -217,6 +224,7 @@ The public internet is increasingly centralized, exposing users to surveillance,
 | **Zero-Trust Networking** | Every component assumes adversarial environment |
 | **Fail-Closed Security** | System blocks traffic rather than leaking on failure |
 | **DAO-by-Design** | Governance powers the network, not a company |
+| **Access for All** | Fair Pay model — free for those who need it most |
 
 ---
 
@@ -516,7 +524,7 @@ signature                      zkProof }
 | 🔒 **DNS Leak Protection** | All DNS queries via Tor | ✅ Live |
 | ⚡ **Kill Switch** | Block traffic if VPN disconnects | ✅ Live |
 | 🔐 **Local ZK Auth** | Zero-knowledge authentication | ✅ Live |
-| 💰 **Daily Rewards** | Claim tokens for participation | ✅ Live |
+| 📅 **Daily Claim** | Earn claim points for network participation | ✅ Live |
 
 ### 💎 Premium Features
 
@@ -568,21 +576,38 @@ Identity Shield is an integrated data breach monitoring service:
 
 ---
 
-## 10. Tier System
+## 10. Access Model
 
-### 📋 Tier Comparison
+### Fair Pay — Privacy for Everyone
 
-| Feature | STANDARD | PREMIUM |
-|---------|:--------:|:-------:|
-| Tor Routing | ✅ | ✅ |
-| HTTP/SOCKS Proxy | ✅ | ✅ |
-| DNS Leak Protection | ✅ | ✅ |
-| Kill Switch | ✅ | ✅ |
-| Daily Rewards | ✅ | ✅ |
-| TUN Routing | ❌ | ✅ |
-| Priority Routing | ❌ | ✅ |
-| Host Mode | ❌ | ✅ |
-| Unlimited Bandwidth | ❌ | ✅ |
+LastParadox operates on a **Fair Pay model**: identical access for all users, regardless of ability to pay. Voluntary contributions from those who can afford them sustain free access for those who can't.
+
+> No investors. No ads. No data sold. Privacy funded by the community.
+
+### 📋 Access Levels
+
+| Access | Amount | Who |
+|--------|--------|-----|
+| 🆓 **Free** | $0 | Journalists, war correspondents, human rights defenders, NGOs, activists, anyone who can't afford it |
+| 💙 **Solidarity** | $3 one-time | Those who can contribute a little |
+| 💙 **Recommended** | $15 one-time | Those who want to fund ~5 free users |
+| 💙 **Builder** | $30 one-time | Maximum community support |
+
+**All levels give identical product access.** No reduced features, no bandwidth caps, no second-class tier.
+
+Apply for free access → [lastparadox.xyz/press](https://lastparadox.xyz/press)
+
+### Feature Access (All Tiers)
+
+| Feature | Free | $3 | $15 | $30 |
+|---------|:----:|:--:|:---:|:---:|
+| Tor Routing | ✅ | ✅ | ✅ | ✅ |
+| HTTP/SOCKS Proxy | ✅ | ✅ | ✅ | ✅ |
+| DNS Leak Protection | ✅ | ✅ | ✅ | ✅ |
+| Kill Switch | ✅ | ✅ | ✅ | ✅ |
+| Daily Claim | ✅ | ✅ | ✅ | ✅ |
+| TUN Routing (Beta) | ✅ | ✅ | ✅ | ✅ |
+| Priority Routing | ✅ | ✅ | ✅ | ✅ |
 
 ---
 
@@ -601,7 +626,7 @@ The Keeper VPS is the central coordination server operating as a **Tor hidden se
 | 👤 **User Management** | Registration, approval, whitelist |
 | 💳 **Payment Processing** | Stripe and Solana verification |
 | 🔄 **Feed Replication** | Master node for Hypercore sync |
-| 🏷️ **Tier Management** | Subscription assignment |
+| 🏷️ **Tier Management** | Access assignment |
 
 ### 🔌 API Endpoints
 
@@ -666,33 +691,59 @@ The Keeper VPS is the central coordination server operating as a **Tor hidden se
 
 ## 14. Economic Model
 
-### 📊 Phase A: Community Contributions (Current)
+### 📊 Phase A: Fair Pay Model (Current)
+
+LastParadox is funded entirely by voluntary community contributions. The model is simple:
+
+```
+Those who can pay  ──►  Fund access for  ──►  Those who can't
+     ($3 / $15 / $30)                          (Free tier)
+```
 
 <table>
 <tr>
 <td>
 
-**Contributors Receive:**
-- ✅ Functional app access
+**All Users Receive:**
+- ✅ Full product access (all tiers identical)
 - ✅ Governance rights
-- ✅ Eligibility for future rewards
+- ✅ Daily claim point accumulation
+- ✅ Eligibility for future RWRD airdrop
 
 </td>
 <td>
 
 **Why No Token Now?**
 - ⚠️ Regulatory exposure
-- ⚠️ Wrong incentives
+- ⚠️ Wrong incentives (speculation > building)
 - ⚠️ Low liquidity & volatility
-- ⚠️ "Token-first, product-later" failure
+- ⚠️ "Token-first, product-later" failure pattern
 
 </td>
 </tr>
 </table>
 
+### 🎮 Daily Claim & Gamification
+
+Users accumulate **claim points** through daily network participation:
+
+| Action | Points |
+|--------|--------|
+| Daily app check-in | Base reward |
+| Active VPN session | Uptime bonus |
+| HyperNode contribution | Node bonus |
+| Governance vote | Participation bonus |
+
+These points are tracked on-chain (Hypercore) and will form the basis of the future RWRD airdrop — if the DAO votes to proceed. Free users are **fully eligible**, with identical claim rights to paying users.
+
+> Points have no monetary value today. They are activity records for a conditional future event.
+
 ### 🔮 Phase B: Tokenization (RWRD) — Future
 
 > **Tokenomics TBD by DAO. No promises of timelines or allocations.**
+> Activation requires: sustained revenue, Phase 0 completion, DAO supermajority vote, legal review.
+
+See [TOKENOMICS.md](./TOKENOMICS.md) for the full proposed model.
 
 ---
 
@@ -708,9 +759,10 @@ The Keeper VPS is the central coordination server operating as a **Tor hidden se
 ### ⚡ DAO Powers
 
 - Propose/approve protocol upgrades
-- Define reward formulas
+- Define reward formulas and daily claim conversion
 - Manage treasury (grants, audits)
 - Set network parameters
+- Vote on token creation and airdrop
 
 ---
 
@@ -726,9 +778,9 @@ v2.0 ░░░░░░░░░░░░░░░░░░░░   0%  📋 Pla
 | Version | Status | Features |
 |---------|--------|----------|
 | **v1.0** | ✅ Done | Tor + Hypercore, local ZK auth, in-app claims |
-| **v1.1** | 🔄 In Progress | Stable Hyperbee telemetry, host tooling |
-| **v1.5** | 📋 Planned | Premium TUN hardening, Windows/macOS parity |
-| **v2.0** | 📋 Planned | DAO bootstrap, RWRD token spec |
+| **v1.1** | 🔄 In Progress | Stable Hyperbee telemetry, host tooling, Fair Pay model |
+| **v1.5** | 📋 Planned | Daily claim gamification, TUN hardening, Windows/macOS parity |
+| **v2.0** | 📋 Planned | DAO bootstrap, RWRD token spec, airdrop snapshot |
 | **v2.x** | 📋 Future | Mobile client, host marketplace |
 
 > *Roadmap is aspirational and subject to change.*
@@ -766,7 +818,8 @@ v2.0 ░░░░░░░░░░░░░░░░░░░░   0%  📋 Pla
 
 - ❌ **No token sale** at this stage
 - ❌ **No dividends** promised or implied
-- ✅ **Contributions** support development
+- ✅ **Contributions** are voluntary service payments (one-time, no subscription)
+- ✅ **Free access** available for journalists, NGOs, and activists — no proof required
 - ✅ Users responsible for **local law compliance**
 
 </td>
@@ -814,12 +867,13 @@ v2.0 ░░░░░░░░░░░░░░░░░░░░   0%  📋 Pla
 <td align="center">🔗<br/><strong>Hypercore Routing</strong></td>
 <td align="center">🧅<br/><strong>Tor Integration</strong></td>
 <td align="center">🛡️<br/><strong>Defense-in-Depth</strong></td>
-<td align="center">🖥️<br/><strong>Local-First Design</strong></td>
+<td align="center">💙<br/><strong>Fair Pay Access</strong></td>
 </tr>
 </table>
 
 <p align="center">
-  <em>By prioritizing development <strong>before</strong> tokenization, the project focuses on building functional software first.</em>
+  <em>By prioritizing development <strong>before</strong> tokenization, the project focuses on building functional software first.</em><br/>
+  <em>By prioritizing access over profit, it ensures privacy reaches those who need it most.</em>
 </p>
 
 ---
@@ -829,8 +883,8 @@ v2.0 ░░░░░░░░░░░░░░░░░░░░   0%  📋 Pla
 | Field | Value |
 |-------|-------|
 | **Type** | Technical Design Draft — Living Whitepaper |
-| **Version** | 2.0-draft |
-| **Updated** | December 2025 |
+| **Version** | 2.1-draft |
+| **Updated** | March 30, 2026 |
 | **Maintainers** | LastParadox Core Team |
 
 ---
@@ -861,11 +915,13 @@ The software is provided "as is" for privacy-conscious users who understand the 
 ---
 
 <p align="center">
-  <strong>🛡️ Privacy is not a feature. It's the foundation.</strong>
+  <strong>🛡️ Privacy is not a feature. It's the foundation.</strong><br/>
+  <em>Free for those who need it. Sustained by those who can.</em>
 </p>
 
 <p align="center">
-  <sub>© 2025 LastParadox Project — All rights reserved</sub><br/>
+  <sub>© 2026 LastParadox Project — All rights reserved</sub><br/>
+  <sub>Founder: <strong>Stéphane Ethève</strong></sub><br/>
   <sub>See <a href="./LEGAL.md">LEGAL.md</a> for full terms</sub>
 </p>
 
