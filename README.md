@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://lastparadox.xyz/assets/banner5.png" alt="LastParadox Banner" width="100%"/>
+  <img src="https://lastparadox.xyz/logo.png" alt="LastParadox Banner" width="100%"/>
 </p>
 
 <p align="center">
