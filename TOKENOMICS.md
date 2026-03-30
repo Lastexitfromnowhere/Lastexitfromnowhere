@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://landing-last.vercel.app/assets/banner5.png" alt="LastParadox Banner" width="100%"/>
+  <img src="https://lastparadox.xyz/logo.png" alt="LastParadox Banner" width="100%"/>
 </p>
 
 # LastParadox Tokenomics — Living Document
 
-**Document Status:** Draft — Subject to Community Review and DAO Governance  
-**Last Updated:** December 2025  
-**Version:** 0.3-draft
+**Document Status:** Draft — Subject to Community Review and DAO Governance
+**Last Updated:** March 30, 2026
+**Version:** 0.4-draft
 
 ---
 
@@ -59,46 +59,48 @@ During this phase, the project focuses exclusively on:
 
 ---
 
-## 1. Contribution Model (Phase 0)
+## 1. Fair Pay Model (Phase 0)
 
-Contributors support the network's development and receive **service access** in return.
+LastParadox operates on a **Fair Pay model**: privacy is free for those who need it most, and voluntary contributions from those who can afford it sustain the network for everyone.
 
 ### ⚠️ Critical Distinction
 
 | What Contributions ARE | What Contributions ARE NOT |
 |------------------------|---------------------------|
-| Service subscriptions | Investment contracts |
-| Access to features | Token purchases |
-| Governance participation | Securities |
-| Community membership | Profit-sharing agreements |
-| Support for development | Financial instruments |
+| Voluntary service payments | Investment contracts |
+| One-time access contributions | Token purchases |
+| Community solidarity funding | Securities |
+| Support for the free-access program | Profit-sharing agreements |
+| Governance participation | Financial instruments |
 
-### Contribution Tiers
+### Free Access Program
 
-#### 🔹 Supporter — $4/year
-- Basic browser proxy access
-- Supports infrastructure costs
-- Community member status
-- Access to public Discord channels
+LastParadox provides **free full access** to:
+- Journalists and war correspondents
+- Human rights defenders
+- NGOs and civil society organizations
+- Activists operating in high-risk environments
+- Anyone who cannot afford to contribute
 
-#### 🔹 Governance Member — $9/year
-- Full application access
-- Voting rights in governance proposals (1 year)
-- Access to governance Discord channels
-- Eligibility consideration for future reward programs (not guaranteed)
+Free access gives **identical product access** to all features. No reduced tier.
+→ Apply at [lastparadox.xyz/press](https://lastparadox.xyz/press)
 
-#### 🔹 Builder — from $50
-- Supports long-term R&D (Hypercore, Tor, TUN, ZK)
-- Early access to beta features
-- Priority voice in governance discussions
-- Recognition as early builder
-- Eligibility consideration for future DAO programs (not guaranteed)
+### Contribution Levels
+
+| Level | Amount | What it funds |
+|-------|--------|---------------|
+| 🆓 Free | $0 | Full access — for those who need it |
+| 💙 Solidarity | $3 | One-time · funds ~1 free user |
+| 💙 Recommended | $15 | One-time · funds ~5 free users |
+| 💙 Builder | $30 | One-time · maximum community support |
+
+All tiers give **identical access**. No subscription. No auto-renewal.
 
 ### What Contributors Receive Today
 
 **1. Functional Software**
 - Working VPN application with Tor integration
-- Features unlocked according to contribution tier
+- Full feature access regardless of contribution tier
 - Regular updates and improvements
 
 **2. Governance Rights**
@@ -121,7 +123,58 @@ Contributors support the network's development and receive **service access** in
 
 ---
 
-## 2. Proposed Token Overview (Phase 1 — Requires DAO Vote)
+## 2. Daily Claim & Gamification — Proposed Airdrop Mechanism
+
+> **Status: Proposed — Requires DAO Vote and Sufficient Treasury**
+>
+> This mechanism will only be activated if and when the project generates sustainable revenue.
+> It does not constitute a promise of token distribution.
+
+### Concept
+
+LastParadox plans to introduce a **daily claim system** — a gamification layer that rewards active users for consistent network participation.
+
+Users accumulate **claim points** through daily activity:
+
+| Action | Points (proposed) |
+|--------|------------------|
+| Daily app check-in | Base reward |
+| Active VPN session | Uptime bonus |
+| HyperNode contribution | Node bonus |
+| Governance vote cast | Participation bonus |
+| Referral of free-access user | Solidarity bonus |
+
+### How the Airdrop Would Work
+
+When the DAO decides to create the RWRD token:
+
+```
+Daily Claim Points (accumulated) → Snapshot → RWRD Airdrop allocation
+```
+
+1. **Accumulation phase** (now → token vote): users earn claim points through daily activity
+2. **Snapshot**: DAO votes on a snapshot date — all points locked
+3. **Conversion**: DAO sets the points-to-RWRD conversion rate
+4. **Airdrop**: tokens distributed proportionally to accumulated points
+
+### Why This Model
+
+- Rewards genuine users, not speculators
+- Prioritizes those who were active before any token hype
+- Anti-Sybil: daily claim tied to real VPN usage, not just wallet registration
+- Free users (NGOs/journalists) are **fully eligible** — solidarity is rewarded equally
+
+### Important Caveats
+
+- Points accumulated today have **no monetary value**
+- The airdrop is **contingent on revenue** and DAO approval
+- Conversion rate will be set by DAO governance at the time of the vote
+- The mechanism may be modified or cancelled before launch
+- This is not a promise, guarantee, or financial instrument
+
+---
+
+## 3. Proposed Token Overview (Phase 1 — Requires DAO Vote)
 
 The following describes a **proposed** token model. Implementation requires:
 - Successful completion of Phase 0 milestones
@@ -147,25 +200,26 @@ The following describes a **proposed** token model. Implementation requires:
 | Premium Access | Payment for TUN mode and advanced features | Proposed |
 | Uptime Rewards | Incentives for HyperNode operators | Proposed |
 | Governance Voting | Weighted voting in DAO proposals | Proposed |
+| Daily Claim Airdrop | Distribution to active users via claim points | Proposed |
 | Anti-Sybil Staking | Quality-of-service weighting | Under Discussion |
 | Infrastructure Incentives | Rewards for Tor relay operators | Under Discussion |
 
 ---
 
-## 3. Proposed Distribution (Requires DAO Approval)
+## 4. Proposed Distribution (Requires DAO Approval)
 
 The following allocation is a **working proposal** subject to change.
 
 | Category | Proposed % | Proposed Amount | Notes | Status |
 |----------|-----------|-----------------|-------|--------|
-| Community Rewards | 50% | 500,000,000 | HyperNode uptime, Tor routing, contributions | Proposed |
+| Community Rewards | 45% | 450,000,000 | HyperNode uptime, Tor routing, daily claim airdrop | Proposed |
+| Daily Claim Airdrop | 10% | 100,000,000 | Reserved for gamification airdrop (active users) | Proposed |
 | Node Incentives | 15% | 150,000,000 | Bootstrap for relays and HyperBee network | Proposed |
 | Core Team | 8% | 80,000,000 | 12-month cliff + 36-month vesting | Proposed |
 | Early Contributors | 4% | 40,000,000 | Phase 0 supporters, DAO-defined criteria | Proposed |
 | Liquidity Provision | 5% | 50,000,000 | DEX liquidity (DAO vote required) | Under Review |
 | Ecosystem Development | 8% | 80,000,000 | SDKs, mobile app, TUN R&D, audits | Proposed |
 | DAO Treasury | 5% | 50,000,000 | Grants, partnerships, contingency | Proposed |
-| Marketing & Growth | 5% | 50,000,000 | Ecosystem expansion, partnerships | Proposed |
 
 ### Vesting Schedules (Proposed)
 
@@ -175,6 +229,7 @@ The following allocation is a **working proposal** subject to change.
 | Early Contributors | 6 months | 24 months | Linear monthly |
 | Node Incentives | None | 60-84 months | Performance-based |
 | Community Rewards | None | 60-84 months | Activity-based |
+| Daily Claim Airdrop | None | At DAO snapshot | One-time distribution |
 
 ### Important Notes on Distribution
 
@@ -186,7 +241,7 @@ The following allocation is a **working proposal** subject to change.
 
 ---
 
-## 4. Why No Token Yet — Risk Mitigation
+## 5. Why No Token Yet — Risk Mitigation
 
 Launching a token prematurely introduces significant risks:
 
@@ -211,8 +266,8 @@ Launching a token prematurely introduces significant risks:
 ### Our Approach: Build First
 
 ```
-Phase 0 (NOW)     → Contributors fund → Network grows → App matures
-Phase 1 (FUTURE)  → DAO votes → Token created → Distribution begins
+Phase 0 (NOW)     → Fair Pay model → Network grows → Daily claim accumulates
+Phase 1 (FUTURE)  → Revenue sustained → DAO votes → Token created → Airdrop
 Phase 2 (LATER)   → Full decentralization → Community governance
 ```
 
@@ -224,7 +279,7 @@ This approach ensures:
 
 ---
 
-## 5. Governance Framework (In Development)
+## 6. Governance Framework (In Development)
 
 ### Current State (Phase 0)
 - Off-chain governance via Discord and GitHub
@@ -243,13 +298,14 @@ This approach ensures:
 The DAO will have authority over:
 - Protocol upgrades and parameters
 - Reward formulas and distribution
+- Daily claim conversion rate and airdrop timing
 - Treasury allocation and grants
 - Partnership and integration decisions
 - Token creation and tokenomics (if applicable)
 
 ---
 
-## 6. Security & Compliance Commitments
+## 7. Security & Compliance Commitments
 
 ### What We Commit To
 
@@ -272,14 +328,14 @@ The DAO will have authority over:
 
 ---
 
-## 7. Roadmap Integration
+## 8. Roadmap Integration
 
 | Phase | Focus | Token Status |
 |-------|-------|--------------|
-| **Phase 0** (Current) | Build, test, grow community | No token |
-| **Phase 0.5** | DAO structure, legal framework | No token |
-| **Phase 1** | Stability, audits, DAO vote | Token decision |
-| **Phase 2** | If approved: mint, distribute | Token active |
+| **Phase 0** (Current) | Build, test, grow community, daily claim accumulation | No token |
+| **Phase 0.5** | DAO structure, legal framework, revenue sustainability | No token |
+| **Phase 1** | Stability, audits, DAO vote | Token decision + airdrop snapshot |
+| **Phase 2** | If approved: mint, distribute, airdrop | Token active |
 | **Phase 3** | Full decentralization | DAO-governed |
 
 ### Phase 0 Milestones (In Progress)
@@ -288,6 +344,8 @@ The DAO will have authority over:
 - [x] Tor integration
 - [x] Hypercore replication
 - [x] ZK authentication
+- [x] Fair Pay model + free access for NGOs/press
+- [ ] Daily claim gamification system
 - [ ] TUN mode stabilization
 - [ ] Multi-platform parity (Windows/macOS/Linux)
 - [ ] Security audit completion
@@ -296,15 +354,24 @@ The DAO will have authority over:
 
 ---
 
-## 8. Frequently Asked Questions
+## 9. Frequently Asked Questions
 
 ### "When will the token launch?"
 
 There is no set date. Token creation requires:
 1. Completion of Phase 0 milestones
-2. DAO governance vote with supermajority
-3. Legal compliance verification
-4. Community consensus
+2. Sustainable revenue from the Fair Pay model
+3. DAO governance vote with supermajority
+4. Legal compliance verification
+5. Community consensus
+
+### "Do my daily claim points have value?"
+
+Not today. They are activity tracking for a potential future airdrop. Their value — if any — will be determined by the DAO at the time of the token vote. They are not a financial instrument.
+
+### "Are free users (NGOs/journalists) eligible for the airdrop?"
+
+**Yes.** The daily claim system treats all users equally regardless of contribution tier. Free access users are fully eligible. Solidarity is rewarded.
 
 ### "Am I guaranteed tokens if I contribute?"
 
@@ -312,15 +379,10 @@ There is no set date. Token creation requires:
 - Not guaranteed
 - Subject to DAO vote
 - Based on criteria not yet defined
-- Potentially different from contribution amounts
 
 ### "Is this an investment?"
 
-**No.** Contributions are payments for services (VPN access, governance participation). They are not:
-- Investment contracts
-- Securities
-- Profit-sharing agreements
-- Token presales
+**No.** Contributions are payments for services (VPN access, governance participation). They are not investment contracts, securities, or token presales.
 
 ### "What if the token never launches?"
 
@@ -328,40 +390,38 @@ Contributors still receive:
 - Functional VPN software
 - Governance participation rights
 - Community membership
-- The value they paid for in services
-
-### "Can I get a refund?"
-
-Contributions are for services rendered. Refund policies follow standard software subscription terms, not investment redemption logic.
+- The full product they paid for (or got free)
 
 ---
 
-## 9. Document History
+## 10. Document History
 
 | Version | Date | Changes |
 |---------|------|---------|
 | 0.1 | Nov 2024 | Initial draft |
 | 0.2 | Dec 2024 | Added disclaimers, clarified tiers |
 | 0.3-draft | Dec 2025 | Renamed "Investor" to "Builder", enhanced legal language, added FAQ |
+| 0.4-draft | March 30, 2026 | Fair Pay model replaces subscription tiers · Added Daily Claim gamification + airdrop mechanism · Free users eligible · Updated roadmap |
 
 ---
 
-## 10. Conclusion
+## 11. Conclusion
 
 RWRD is **not** the starting point — **contributors and users are**.
 
-Today, contributors receive:
-- ✅ Functional privacy software
+Today, all users receive:
+- ✅ Full privacy software — free for those who need it
 - ✅ Governance participation rights
+- ✅ Daily claim point accumulation (future airdrop eligibility)
 - ✅ Community membership and recognition
-- ✅ The services they paid for
 
-Tomorrow, **if the DAO decides**, there may be:
+Tomorrow, **if the DAO decides**:
 - 🔄 A token creation vote
+- 🔄 Airdrop to active daily claim holders
 - 🔄 Distribution mechanisms
 - 🔄 Additional utility features
 
-**The focus remains on building useful software, not launching tokens.**
+**The focus remains: build useful software, protect those who need it most.**
 
 ---
 
@@ -370,6 +430,8 @@ Tomorrow, **if the DAO decides**, there may be:
 **Privacy first. Users first. Product first.**
 
 *Token later — maybe — if the community decides.*
+
+*Those who can pay fund those who can't. That's the model.*
 
 </p>
 
@@ -383,11 +445,10 @@ This document is provided for informational purposes only. It does not constitut
 - Financial, legal, or tax advice
 - A binding commitment or contract
 
-Participation in the LastParadox network is subject to the Terms of Service. Contributors should consult their own legal and financial advisors before participating.
+Participation in the LastParadox network is subject to the Terms of Service and Legal Notice. Contributors should consult their own legal and financial advisors before participating.
 
 The LastParadox team reserves the right to modify this document at any time based on community feedback, legal requirements, or technical considerations.
 
 ---
 
 *Questions? Contact: contact@lastparadox.xyz*
-
