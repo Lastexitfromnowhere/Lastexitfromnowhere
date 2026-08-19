@@ -71,6 +71,17 @@ You only pay if your files are recoverable.<br/><br/>
 
 ---
 
+## 🛠️ Also built
+
+Beyond the paradox — other things I ship as a developer:
+
+| | | |
+|---|---|---|
+| 🦺 **ModeOp SS4** | French regulatory SaaS — generates compliant asbestos sub-section 4 work procedures in 20 minutes. Every value sourced and dated (NF X46-102, VLEP, RAAT). | [modeop.lastparadox.dev](https://modeop.lastparadox.dev/) |
+| 🏈 **BL Study & Sports Consulting** | Bilingual site for a US-based agency guiding European athletes to NCAA / NAIA / NJCAA scholarships — from profile review to signature. | [blstudysportsconsulting.com](https://www.blstudysportsconsulting.com/) |
+
+---
+
 ## 🔥 LastParadox Recovery — Reappear
 
 **Deleted files, emptied recycle bin, formatted drives** — as long as nothing has
