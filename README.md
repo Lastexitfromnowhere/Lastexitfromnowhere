@@ -1,11 +1,25 @@
+<h1 align="center">L A S T &nbsp; P A R A D O X</h1>
+
+<h3 align="center">
+  <em><span>Disappear.</span> <span>Reappear.</span></em>
+</h3>
+
 <p align="center">
-  <img src="https://lastparadox.xyz/logo.png" alt="LastParadox" width="100%"/>
+  We build both ends of the digital paradox:<br/>
+  the art of <strong>disappearing without a trace</strong>, and the art of <strong>bringing back what was lost</strong>.<br/>
+  <sub>Two tools. One conviction — <strong>cryptography over promises</strong>.</sub>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Phase%200%20(Building)-7D4698?style=for-the-badge" alt="Status"/>
-  <img src="https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge" alt="License"/>
-  <img src="https://img.shields.io/badge/Token-None%20Yet-gray?style=for-the-badge" alt="Token"/>
+  <a href="https://lastparadox.dev">
+    <img src="https://img.shields.io/badge/🏠_Ecosystem-lastparadox.dev-111111?style=for-the-badge" alt="Ecosystem"/>
+  </a>
+  <a href="https://lastparadox.xyz">
+    <img src="https://img.shields.io/badge/🧅_VPN-lastparadox.xyz-7D4698?style=for-the-badge" alt="VPN"/>
+  </a>
+  <a href="https://recovery.lastparadox.dev">
+    <img src="https://img.shields.io/badge/🔥_Recovery-recovery.lastparadox.dev-FF5A1F?style=for-the-badge" alt="Recovery"/>
+  </a>
 </p>
 
 <p align="center">
@@ -15,9 +29,80 @@
   <a href="https://x.com/LastParadox__">
     <img src="https://img.shields.io/badge/X-Follow-000000?style=flat-square&logo=x&logoColor=white" alt="X"/>
   </a>
-  <a href="https://lastparadox.xyz">
-    <img src="https://img.shields.io/badge/Web-lastparadox.xyz-00C853?style=flat-square" alt="Website"/>
+</p>
+
+---
+
+## ⚖️ The Paradox
+
+<table>
+<tr>
+<td align="center" width="50%">
+<h3>🧅 LastParadox VPN</h3>
+<em>Disappear. For real.</em><br/><br/>
+Decentralized Tor VPN with <strong>zero logs</strong>, no central servers,
+and ZK auth. Built for journalists, activists and NGOs who need
+real anonymity — not a privacy policy.<br/><br/>
+<img src="https://img.shields.io/badge/Status-Phase%200%20(Building)-7D4698?style=flat-square" alt="Status"/>
+<img src="https://img.shields.io/badge/Model-Fair%20Pay-blue?style=flat-square" alt="Fair Pay"/><br/><br/>
+<a href="https://lastparadox.xyz"><strong>lastparadox.xyz →</strong></a>
+</td>
+<td align="center" width="50%">
+<h3>🔥 LastParadox Recovery</h3>
+<em>Reappear. From the ashes.</em><br/><br/>
+File recovery for Windows. Deleted, emptied recycle bin, formatted —
+<strong>free unlimited scan &amp; preview</strong>, strict read-only engine.
+You only pay if your files are recoverable.<br/><br/>
+<img src="https://img.shields.io/badge/Status-Live-00C853?style=flat-square" alt="Live"/>
+<img src="https://img.shields.io/badge/License-%E2%82%AC29%20lifetime-FF5A1F?style=flat-square" alt="29 lifetime"/><br/><br/>
+<a href="https://recovery.lastparadox.dev"><strong>recovery.lastparadox.dev →</strong></a>
+</td>
+</tr>
+</table>
+
+### 🧬 Same DNA on both sides
+
+| | |
+|---|---|
+| 🔑 **Ed25519 everywhere** | The VPN's keyless auth and Recovery's offline licenses rest on the same elliptic-curve cryptography. We never ask you to trust us — you can verify. |
+| 🚫 **Zero trusted servers** | No central server to compromise on the VPN; Recovery licenses verify offline, forever. What doesn't exist can't be seized, cut off, or resold. |
+| 🪶 **Native, tiny, auditable** | Native binaries of a few MB. No telemetry anywhere. Your data never leaves your machine. |
+| 🌩️ **Built for the bad days** | A reporter under surveillance, a dying drive: our tools serve when things go wrong — that's exactly when they're not allowed to lie. |
+
+---
+
+## 🔥 LastParadox Recovery — Reappear
+
+**Deleted files, emptied recycle bin, formatted drives** — as long as nothing has
+overwritten them, your files are still there. Recovery finds them, you **see them
+with your own eyes**, and you only pay if they're recoverable.
+
+| | |
+|---|---|
+| 🔍 **NTFS / FAT undelete** | Files come back with their real name, folder and date — emptied recycle bin included |
+| 🧬 **Deep carve** | Sector-by-sector signature scan, 40+ formats (jpg, cr2 RAW, psd, heic, mp4, mkv, pdf, zip, pst…) — works after formatting |
+| 🔒 **Read-only by architecture** | The engine's only disk interface has no write method. Not a promise — a design |
+| 🪶 **1.9 MB, portable** | Runs from a USB stick — never installs onto the drive you're saving |
+| 🔑 **Offline Ed25519 license** | €29 once, lifetime. Verifies locally, forever — even if our servers vanish |
+
+<p align="center">
+  <a href="https://recovery.lastparadox.dev">
+    <img src="https://img.shields.io/badge/⬇️_Free_scan-recovery.lastparadox.dev-FF5A1F?style=for-the-badge" alt="Download"/>
   </a>
+</p>
+
+---
+
+## 🧅 LastParadox VPN — Disappear
+
+<p align="center">
+  <img src="https://lastparadox.xyz/logo.png" alt="LastParadox VPN" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Phase%200%20(Building)-7D4698?style=for-the-badge" alt="Status"/>
+  <img src="https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/Token-None%20Yet-gray?style=for-the-badge" alt="Token"/>
 </p>
 
 <h3 align="center">
@@ -28,11 +113,9 @@
   <strong>Decentralized VPN • Tor-Powered • Zero-Knowledge • Fair Pay Model</strong>
 </p>
 
----
+### 🚀 Vision
 
-## 🚀 Vision
-
-**LastParadox** is a next-generation **decentralized privacy network** built for those who can't afford to be watched.
+**LastParadox VPN** is a next-generation **decentralized privacy network** built for those who can't afford to be watched.
 
 Unlike traditional VPNs that ask you to *trust* their "no-logs" promises, LastParadox makes logging **technically impossible**.
 
@@ -43,9 +126,7 @@ Those who can contribute fund access for those who can't. No investors. No ads. 
   <strong>Privacy funded by the community — for those who need it most.</strong>
 </p>
 
----
-
-## 🔑 Core Technologies
+### 🔑 Core Technologies
 
 <table>
 <tr>
@@ -72,9 +153,7 @@ Those who can contribute fund access for those who can't. No investors. No ads. 
 </tr>
 </table>
 
----
-
-## ✨ Key Features
+### ✨ Key Features
 
 | Feature | Description | Status |
 |---------|-------------|--------|
@@ -87,9 +166,7 @@ Those who can contribute fund access for those who can't. No investors. No ads. 
 | 💎 **TUN Mode (Premium)** | Full kernel VPN routing | 🔄 Beta |
 | 🧩 **DAO Governance** | Community proposals & voting | 🔄 Building |
 
----
-
-## 🏗️ Architecture
+### 🏗️ Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -125,9 +202,7 @@ YOU ──► TOR ──► HYPERNODE ──► EXIT ──► INTERNET
   └── ZK Proof ─────┘ (identity never leaked)
 ```
 
----
-
-## 📊 Project Status
+### 📊 Project Status
 
 ```
 Phase 0 ████████████████░░░░ 80%  ← CURRENT
@@ -143,9 +218,7 @@ Phase 2 ░░░░░░░░░░░░░░░░░░░░  0%
 
 > **Note:** Token creation requires DAO vote. No token exists today.
 
----
-
-## 💙 Fair Pay Model
+### 💙 Fair Pay Model
 
 > Privacy should be accessible to everyone — especially those in danger.
 
@@ -195,9 +268,9 @@ Every tier gives **identical access**. No premium features hidden behind a paywa
 
 ## ⚠️ Disclaimer
 
-> **This is experimental software.** Use at your own risk.
+> **Experimental software (VPN) / data recovery depends on drive state (Recovery).**
 >
-> - No absolute privacy guarantee
+> - No absolute privacy guarantee; overwritten data is physically unrecoverable
 > - VPN/Tor may be restricted in some jurisdictions
 > - You are responsible for local law compliance
 > - No tokens exist — contributions are service payments
@@ -215,8 +288,17 @@ Every tier gives **identical access**. No premium features hidden behind a paywa
   <a href="https://x.com/LastParadox__">
     <img src="https://img.shields.io/badge/🐦_X-@LastParadox__-000000?style=for-the-badge" alt="X"/>
   </a>
+</p>
+
+<p align="center">
+  <a href="https://lastparadox.dev">
+    <img src="https://img.shields.io/badge/🏠_lastparadox.dev-111111?style=for-the-badge" alt="Ecosystem"/>
+  </a>
   <a href="https://lastparadox.xyz">
-    <img src="https://img.shields.io/badge/🌐_Website-lastparadox.xyz-00C853?style=for-the-badge" alt="Website"/>
+    <img src="https://img.shields.io/badge/🧅_lastparadox.xyz-7D4698?style=for-the-badge" alt="VPN"/>
+  </a>
+  <a href="https://recovery.lastparadox.dev">
+    <img src="https://img.shields.io/badge/🔥_recovery.lastparadox.dev-FF5A1F?style=for-the-badge" alt="Recovery"/>
   </a>
 </p>
 
@@ -229,19 +311,12 @@ Every tier gives **identical access**. No premium features hidden behind a paywa
 ---
 
 <p align="center">
-  <strong>🛡️ Privacy is not a feature. It's the foundation.</strong>
+  <strong>🛡️ Privacy is not a feature. It's the foundation.</strong><br/>
+  <strong>🔥 And what was lost can rise again.</strong>
 </p>
 
 <p align="center">
-  <sub>© 2025 LastParadox Project</sub><br/>
+  <sub>© 2025–2026 LastParadox Project</sub><br/>
   <sub>Founder: <strong>Stéphane Ethève</strong></sub><br/>
   <sub>All rights reserved — See <a href="./LEGAL.md">LEGAL.md</a></sub>
-</p>
-
----
-
-<p align="center">
-  <a href="#top">
-    <img src="https://img.shields.io/badge/⬆️_Back_to_Top-7D4698?style=flat-square" alt="Back to Top"/>
-  </a>
 </p>
