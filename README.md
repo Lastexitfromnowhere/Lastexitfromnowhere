@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://lastparadox.dev">
-    <img src="https://img.shields.io/badge/🏠_Ecosystem-lastparadox.dev-111111?style=for-the-badge" alt="Ecosystem"/>
+    <img src="https://img.shields.io/badge/🏠_ECOSYSTEM-lastparadox.dev-F5F2EC?style=for-the-badge&labelColor=000000" alt="Ecosystem"/>
   </a>
   <a href="https://lastparadox.xyz">
     <img src="https://img.shields.io/badge/🧅_VPN-lastparadox.xyz-7D4698?style=for-the-badge" alt="VPN"/>
@@ -303,7 +303,7 @@ Every tier gives **identical access**. No premium features hidden behind a paywa
 
 <p align="center">
   <a href="https://lastparadox.dev">
-    <img src="https://img.shields.io/badge/🏠_lastparadox.dev-111111?style=for-the-badge" alt="Ecosystem"/>
+    <img src="https://img.shields.io/badge/🏠_lastparadox.dev-F5F2EC?style=for-the-badge&labelColor=000000" alt="Ecosystem"/>
   </a>
   <a href="https://lastparadox.xyz">
     <img src="https://img.shields.io/badge/🧅_lastparadox.xyz-7D4698?style=for-the-badge" alt="VPN"/>
