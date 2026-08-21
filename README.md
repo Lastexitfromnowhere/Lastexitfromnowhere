@@ -41,8 +41,8 @@
 <h3>🧅 LastParadox VPN</h3>
 <em>Disappear. For real.</em><br/><br/>
 A <strong>free</strong> Tor VPN that routes your <strong>whole device</strong> through Tor —
-not just a browser tab. <strong>Zero logs</strong> (there's no server of ours that could
-log), no account, no payment.<br/><br/>
+not just a browser tab — and connects <strong>even where Tor is blocked</strong>.
+<strong>Zero logs</strong> (there's no server of ours that could log), no account, no payment.<br/><br/>
 <img src="https://img.shields.io/badge/Status-Live-00C853?style=flat-square" alt="Live"/>
 <img src="https://img.shields.io/badge/Price-Free%20forever-46D5E0?style=flat-square" alt="Free"/><br/><br/>
 <a href="https://lastparadox.xyz"><strong>lastparadox.xyz →</strong></a>
@@ -101,7 +101,8 @@ high-risk environments — and free for anyone who values real network privacy.
 | Feature | Description | Status |
 |---------|-------------|--------|
 | 🖥️ **Whole-device Tor (TUN)** | Every app on your machine through Tor — not just a browser tab | ✅ Live |
-| 🌍 **Exit region** | Pick your Tor exit country (US, DE, FR, NL…) for censorship circumvention | ✅ Live |
+| 🌉 **Censorship bypass** | Tor blocked where you are (Iran, China, Russia)? Snowflake &amp; obfs4 bridges kick in automatically — Tor's official pluggable transports, nothing homemade | ✅ Live |
+| 🌍 **Exit region** | Pick your Tor exit country (US, DE, FR, NL…) | ✅ Live |
 | 🧩 **Split tunneling** | Route or bypass specific domains | ✅ Live |
 | 🛡️ **DNS leak protection** | All DNS routed through Tor | ✅ Live |
 | ⚡ **Kill switch** | Auto-block traffic if the tunnel drops | ✅ Live |
@@ -111,11 +112,14 @@ high-risk environments — and free for anyone who values real network privacy.
 ### 🏗️ How it works
 
 ```
-YOU ──► LastParadox (local daemon) ──► TOR (public network) ──► INTERNET
-             │
+YOU ──► LastParadox (local daemon) ──► [bridge if Tor is blocked] ──► TOR (public network) ──► INTERNET
+             │                              Snowflake · obfs4
              └── bundles Tor + SOCKS5 + a whole-device TUN interface
                  nothing runs on our servers — there are none
 ```
+
+**Honest scope:** bridges get you *into* Tor where Tor is censored. They don't change what
+Tor exits can reach — streaming platforms still block them, and no app can guarantee 100% access.
 
 <p align="center">
   <a href="https://download.lastparadox.dev/LastParadox-Setup.exe">
