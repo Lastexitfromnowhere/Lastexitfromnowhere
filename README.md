@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/🏠_ECOSYSTEM-lastparadox.dev-F5F2EC?style=for-the-badge&labelColor=000000" alt="Ecosystem"/>
   </a>
   <a href="https://lastparadox.xyz">
-    <img src="https://img.shields.io/badge/🧅_VPN-lastparadox.xyz-7D4698?style=for-the-badge" alt="VPN"/>
+    <img src="https://img.shields.io/badge/🧅_VPN-lastparadox.xyz-46D5E0?style=for-the-badge&labelColor=000000" alt="VPN"/>
   </a>
   <a href="https://recovery.lastparadox.dev">
     <img src="https://img.shields.io/badge/🔥_Recovery-recovery.lastparadox.dev-FF5A1F?style=for-the-badge" alt="Recovery"/>
@@ -40,11 +40,11 @@
 <td align="center" width="50%">
 <h3>🧅 LastParadox VPN</h3>
 <em>Disappear. For real.</em><br/><br/>
-Decentralized Tor VPN with <strong>zero logs</strong>, no central servers,
-and ZK auth. Built for journalists, activists and NGOs who need
-real anonymity — not a privacy policy.<br/><br/>
-<img src="https://img.shields.io/badge/Status-Phase%200%20(Building)-7D4698?style=flat-square" alt="Status"/>
-<img src="https://img.shields.io/badge/Model-Fair%20Pay-blue?style=flat-square" alt="Fair Pay"/><br/><br/>
+A <strong>free</strong> Tor VPN that routes your <strong>whole device</strong> through Tor —
+not just a browser tab. <strong>Zero logs</strong> (there's no server of ours that could
+log), no account, no payment.<br/><br/>
+<img src="https://img.shields.io/badge/Status-Live-00C853?style=flat-square" alt="Live"/>
+<img src="https://img.shields.io/badge/Price-Free%20forever-46D5E0?style=flat-square" alt="Free"/><br/><br/>
 <a href="https://lastparadox.xyz"><strong>lastparadox.xyz →</strong></a>
 </td>
 <td align="center" width="50%">
@@ -64,21 +64,67 @@ You only pay if your files are recoverable.<br/><br/>
 
 | | |
 |---|---|
-| 🔑 **Ed25519 everywhere** | The VPN's keyless auth and Recovery's offline licenses rest on the same elliptic-curve cryptography. We never ask you to trust us — you can verify. |
-| 🚫 **Zero trusted servers** | No central server to compromise on the VPN; Recovery licenses verify offline, forever. What doesn't exist can't be seized, cut off, or resold. |
+| 🚫 **Zero trusted servers** | The VPN runs on the public Tor network — there is no server of ours between you and the internet. Recovery's licenses verify offline, forever. What doesn't exist can't be seized, cut off, or resold. |
+| 🔑 **Verify, don't trust** | We don't ask you to believe a privacy policy. The VPN *can't* log you by architecture; Recovery *can't* write to your disk by design. Both are provable, not promised. |
 | 🪶 **Native, tiny, auditable** | Native binaries of a few MB. No telemetry anywhere. Your data never leaves your machine. |
 | 🌩️ **Built for the bad days** | A reporter under surveillance, a dying drive: our tools serve when things go wrong — that's exactly when they're not allowed to lie. |
 
 ---
 
-## 🛠️ Also built
+## 🧅 LastParadox VPN — Disappear
 
-Beyond the paradox — other things I ship as a developer:
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Live%20(v2.0)-00C853?style=for-the-badge" alt="Status"/>
+  <img src="https://img.shields.io/badge/Price-Free%20forever-46D5E0?style=for-the-badge&labelColor=000000" alt="Free"/>
+  <img src="https://img.shields.io/badge/Platform-Windows%20·%20Android-46D5E0?style=for-the-badge&labelColor=000000" alt="Platform"/>
+</p>
 
-| | | |
-|---|---|---|
-| 🦺 **ModeOp SS4** | French regulatory SaaS — generates compliant asbestos sub-section 4 work procedures in 20 minutes. Every value sourced and dated (NF X46-102, VLEP, RAAT). | [modeop.lastparadox.dev](https://modeop.lastparadox.dev/) |
-| 🏈 **BL Study & Sports Consulting** | Bilingual site for a US-based agency guiding European athletes to NCAA / NAIA / NJCAA scholarships — from profile review to signature. | [blstudysportsconsulting.com](https://www.blstudysportsconsulting.com/) |
+<h3 align="center">
+  <em>Privacy is not a luxury. It's a right — especially for those who need it most.</em>
+</h3>
+
+Most VPNs ask you to **trust** their "no-logs" promise. LastParadox makes logging
+**technically impossible**: it routes your entire device through the **public Tor
+network**, so there is no server of ours that could keep a log. No account, no
+payment, no telemetry — **free for everyone, forever**.
+
+Built first for **journalists, human rights defenders, NGOs and activists** in
+high-risk environments — and free for anyone who values real network privacy.
+
+> **Honest scope:** this is a privacy / anti-censorship tool, **not** a streaming VPN
+> (Tor exits are blocked by Netflix &amp; co.), and **not** Tails-grade anonymity. It gives
+> you network-level privacy — your IP hidden from every app, your ISP blind, censorship
+> bypassed — accessible to a non-technical person at risk.
+
+### ✨ Features
+
+| Feature | Description | Status |
+|---------|-------------|--------|
+| 🖥️ **Whole-device Tor (TUN)** | Every app on your machine through Tor — not just a browser tab | ✅ Live |
+| 🌍 **Exit region** | Pick your Tor exit country (US, DE, FR, NL…) for censorship circumvention | ✅ Live |
+| 🧩 **Split tunneling** | Route or bypass specific domains | ✅ Live |
+| 🛡️ **DNS leak protection** | All DNS routed through Tor | ✅ Live |
+| ⚡ **Kill switch** | Auto-block traffic if the tunnel drops | ✅ Live |
+| 🔒 **Integrity check** | SHA-256 verification of bundled binaries (tamper detection) | ✅ Live |
+| 🚫 **No account** | Works on install — no sign-up, no email, no identity | ✅ Live |
+
+### 🏗️ How it works
+
+```
+YOU ──► LastParadox (local daemon) ──► TOR (public network) ──► INTERNET
+             │
+             └── bundles Tor + SOCKS5 + a whole-device TUN interface
+                 nothing runs on our servers — there are none
+```
+
+<p align="center">
+  <a href="https://download.lastparadox.dev/LastParadox-Setup.exe">
+    <img src="https://img.shields.io/badge/⬇️_Download_free-Windows-46D5E0?style=for-the-badge&labelColor=000000" alt="Download"/>
+  </a>
+  <a href="https://feedback.lastparadox.dev">
+    <img src="https://img.shields.io/badge/💬_Feedback-feedback.lastparadox.dev-46D5E0?style=for-the-badge&labelColor=000000" alt="Feedback"/>
+  </a>
+</p>
 
 ---
 
@@ -104,187 +150,25 @@ with your own eyes**, and you only pay if they're recoverable.
 
 ---
 
-## 🧅 LastParadox VPN — Disappear
+## 🛠️ Also built
 
-<p align="center">
-  <img src="https://lastparadox.xyz/logo.png" alt="LastParadox VPN" width="100%"/>
-</p>
+Beyond the paradox — other things I ship as a developer:
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Phase%200%20(Building)-7D4698?style=for-the-badge" alt="Status"/>
-  <img src="https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge" alt="License"/>
-  <img src="https://img.shields.io/badge/Token-None%20Yet-gray?style=for-the-badge" alt="Token"/>
-</p>
-
-<h3 align="center">
-  <em>Privacy is not a luxury. It's a right — especially for those who need it most.</em>
-</h3>
-
-<p align="center">
-  <strong>Decentralized VPN • Tor-Powered • Zero-Knowledge • Fair Pay Model</strong>
-</p>
-
-### 🚀 Vision
-
-**LastParadox VPN** is a next-generation **decentralized privacy network** built for those who can't afford to be watched.
-
-Unlike traditional VPNs that ask you to *trust* their "no-logs" promises, LastParadox makes logging **technically impossible**.
-
-**Free for journalists, human rights defenders, NGOs, and activists in high-risk environments.**
-Those who can contribute fund access for those who can't. No investors. No ads. No data sold.
-
-<p align="center">
-  <strong>Privacy funded by the community — for those who need it most.</strong>
-</p>
-
-### 🔑 Core Technologies
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/🧅-Tor-7D4698?style=for-the-badge" alt="Tor"/><br/>
-<strong>Tor Integration</strong><br/>
-<sub>Onion routing, multi-hop anonymity, .onion circuits</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/🔗-Hypercore-FF6B6B?style=for-the-badge" alt="Hypercore"/><br/>
-<strong>HyperNodes</strong><br/>
-<sub>P2P routing, no central servers, encrypted mesh</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/🔐-ZK--SNARKs-00D4AA?style=for-the-badge" alt="ZK"/><br/>
-<strong>Zero-Knowledge Auth</strong><br/>
-<sub>Prove membership without revealing identity</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/🗄️-HyperBee-4A90D9?style=for-the-badge" alt="HyperBee"/><br/>
-<strong>Decentralized Storage</strong><br/>
-<sub>Append-only, tamper-evident, no central DB</sub>
-</td>
-</tr>
-</table>
-
-### ✨ Key Features
-
-| Feature | Description | Status |
-|---------|-------------|--------|
-| 🧅 **Tor Integration** | Privacy by default with `.onion` circuit routing | ✅ Live |
-| 🌐 **HyperNodes** | Encrypted, low-latency P2P routing | ✅ Live |
-| 🗄️ **HyperBee Storage** | Decentralized metadata & protocol state | ✅ Live |
-| 🔐 **ZK Authentication** | zk-SNARK login — no identity exposed | ✅ Live |
-| 🛡️ **DNS Leak Protection** | All DNS routed through Tor | ✅ Live |
-| ⚡ **Kill Switch** | Auto-block traffic if VPN drops | ✅ Live |
-| 💎 **TUN Mode (Premium)** | Full kernel VPN routing | 🔄 Beta |
-| 🧩 **DAO Governance** | Community proposals & voting | 🔄 Building |
-
-### 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                        LASTPARADOX NETWORK                          │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│    ┌──────────┐     ┌──────────┐     ┌──────────┐     ┌──────────┐ │
-│    │  Flutter │     │  Node.js │     │   Tor    │     │  Keeper  │ │
-│    │  Desktop │◄───►│  Daemon  │◄───►│  SOCKS5  │◄───►│ (.onion) │ │
-│    │    UI    │     │ (Fastify)│     │          │     │          │ │
-│    └──────────┘     └──────────┘     └──────────┘     └──────────┘ │
-│          │                │                                        │
-│          │                ▼                                        │
-│          │         ┌─────────────────────────┐                     │
-│          │         │      Hypercore          │                     │
-│          │         │  ┌─────────┐ ┌────────┐ │                     │
-│          │         │  │Hyperbee │ │Swarm   │ │                     │
-│          │         │  │ (Data)  │ │ (P2P)  │ │                     │
-│          │         │  └─────────┘ └────────┘ │                     │
-│          │         └─────────────────────────┘                     │
-│          │                                                         │
-│          ▼                                                         │
-│    ┌──────────┐                                                    │
-│    │ ZK Proofs│  ◄── Local generation, never uploaded              │
-│    │(snarkjs) │                                                    │
-│    └──────────┘                                                    │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-
-Traffic Flow:
-YOU ──► TOR ──► HYPERNODE ──► EXIT ──► INTERNET
-  │                 │
-  └── ZK Proof ─────┘ (identity never leaked)
-```
-
-### 📊 Project Status
-
-```
-Phase 0 ████████████████░░░░ 80%  ← CURRENT
-Phase 1 ░░░░░░░░░░░░░░░░░░░░  0%
-Phase 2 ░░░░░░░░░░░░░░░░░░░░  0%
-```
-
-| Phase | Focus | Status |
-|-------|-------|--------|
-| **Phase 0** | Core VPN, Tor, Hypercore, ZK Auth, TUN | 🔄 In Progress |
-| **Phase 1** | DAO governance, audits, multi-platform | ⏳ Planned |
-| **Phase 2** | Token creation (if DAO approves) | 🔮 Future |
-
-> **Note:** Token creation requires DAO vote. No token exists today.
-
-### 💙 Fair Pay Model
-
-> Privacy should be accessible to everyone — especially those in danger.
-
-**How it works:** Those who can contribute fund access for those who can't.
-Every tier gives **identical access**. No premium features hidden behind a paywall.
-
-| | Access |
-|---|---|
-| 🆓 **Free** | Full access — journalists, activists, NGOs, anyone who can't afford it |
-| 💙 **$3** | One-time contribution — fund someone else's access |
-| 💙 **$15** | Recommended — covers ~5 free users |
-| 💙 **$30** | Builder-level support |
-
-<p align="center">
-  <strong>One-time · No subscription · No auto-renew · Same product for all.</strong><br/>
-  <sub>No investors. No ads. No data sold.</sub>
-</p>
-
-**Apply for free access →** [lastparadox.xyz/press](https://lastparadox.xyz/press)
-*(Journalists, war correspondents, human rights defenders, NGOs, civil society orgs)*
-
----
-
-## 📚 Documentation
-
-<table>
-<tr>
-<td align="center">
-<a href="./WHITEPAPER_FINAL.md">
-<img src="https://img.shields.io/badge/📄-Whitepaper-7D4698?style=for-the-badge" alt="Whitepaper"/>
-</a>
-</td>
-<td align="center">
-<a href="./TOKENOMICS.md">
-<img src="https://img.shields.io/badge/💰-Tokenomics-FF6B6B?style=for-the-badge" alt="Tokenomics"/>
-</a>
-</td>
-<td align="center">
-<a href="./LEGAL.md">
-<img src="https://img.shields.io/badge/⚖️-Legal-gray?style=for-the-badge" alt="Legal"/>
-</a>
-</td>
-</tr>
-</table>
+| | | |
+|---|---|---|
+| 🦺 **ModeOp SS4** | French regulatory SaaS — generates compliant asbestos sub-section 4 work procedures in 20 minutes. Every value sourced and dated (NF X46-102, VLEP, RAAT). | [modeop.lastparadox.dev](https://modeop.lastparadox.dev/) |
+| 🏈 **BL Study & Sports Consulting** | Bilingual site for a US-based agency guiding European athletes to NCAA / NAIA / NJCAA scholarships — from profile review to signature. | [blstudysportsconsulting.com](https://www.blstudysportsconsulting.com/) |
 
 ---
 
 ## ⚠️ Disclaimer
 
-> **Experimental software (VPN) / data recovery depends on drive state (Recovery).**
+> **Privacy tool (VPN) / data recovery depends on drive state (Recovery).**
 >
-> - No absolute privacy guarantee; overwritten data is physically unrecoverable
-> - VPN/Tor may be restricted in some jurisdictions
-> - You are responsible for local law compliance
-> - No tokens exist — contributions are service payments
+> - No absolute anonymity guarantee — this is network privacy, not Tails-grade anonymity
+> - Not a streaming/geo-unblocking VPN (Tor exits are blocklisted by streaming services)
+> - Overwritten data is physically unrecoverable
+> - Tor may be restricted in some jurisdictions — you are responsible for local law compliance
 >
 > See [LEGAL.md](./LEGAL.md) for complete terms.
 
@@ -299,23 +183,14 @@ Every tier gives **identical access**. No premium features hidden behind a paywa
   <a href="https://x.com/LastParadox__">
     <img src="https://img.shields.io/badge/🐦_X-@LastParadox__-000000?style=for-the-badge" alt="X"/>
   </a>
-</p>
-
-<p align="center">
-  <a href="https://lastparadox.dev">
-    <img src="https://img.shields.io/badge/🏠_lastparadox.dev-F5F2EC?style=for-the-badge&labelColor=000000" alt="Ecosystem"/>
-  </a>
-  <a href="https://lastparadox.xyz">
-    <img src="https://img.shields.io/badge/🧅_lastparadox.xyz-7D4698?style=for-the-badge" alt="VPN"/>
-  </a>
-  <a href="https://recovery.lastparadox.dev">
-    <img src="https://img.shields.io/badge/🔥_recovery.lastparadox.dev-FF5A1F?style=for-the-badge" alt="Recovery"/>
+  <a href="https://feedback.lastparadox.dev">
+    <img src="https://img.shields.io/badge/💬_Feedback-Leave_yours-46D5E0?style=for-the-badge&labelColor=000000" alt="Feedback"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="mailto:contact@lastparadox.xyz">
-    <img src="https://img.shields.io/badge/📧_Email-contact@lastparadox.xyz-EA4335?style=for-the-badge" alt="Email"/>
+  <a href="mailto:contact@lastparadox.dev">
+    <img src="https://img.shields.io/badge/📧_Email-contact@lastparadox.dev-EA4335?style=for-the-badge" alt="Email"/>
   </a>
 </p>
 
@@ -327,7 +202,6 @@ Every tier gives **identical access**. No premium features hidden behind a paywa
 </p>
 
 <p align="center">
-  <sub>© 2025–2026 LastParadox Project</sub><br/>
-  <sub>Founder: <strong>Stéphane Ethève</strong></sub><br/>
+  <sub>© 2025–2026 LastParadox</sub><br/>
   <sub>All rights reserved — See <a href="./LEGAL.md">LEGAL.md</a></sub>
 </p>
