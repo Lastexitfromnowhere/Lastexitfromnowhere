@@ -193,8 +193,8 @@ Beyond the paradox — other things I ship as a developer:
 </p>
 
 <p align="center">
-  <a href="mailto:contact@lastparadox.dev">
-    <img src="https://img.shields.io/badge/📧_Email-contact@lastparadox.dev-EA4335?style=for-the-badge" alt="Email"/>
+  <a href="mailto:contact@lastparadox.xyz">
+    <img src="https://img.shields.io/badge/📧_Email-contact@lastparadox.xyz-EA4335?style=for-the-badge" alt="Email"/>
   </a>
 </p>
 

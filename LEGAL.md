@@ -1,396 +1,215 @@
 # ⚖️ Legal Notice & Disclaimer
 
-**Document Status:** Active Legal Notice
-**Last Updated:** March 30, 2026
-**Version:** 3.0
+**Document status:** Active legal notice
+**Last updated:** August 21, 2026
+**Version:** 4.0
 
 ---
 
-## Important — Please Read Carefully
+## Please read carefully
 
-This Legal Notice applies to all LastParadox software, documentation, services, and related materials. By accessing, downloading, using, or contributing to LastParadox, you acknowledge that you have read, understood, and agree to be bound by this notice.
-
----
-
-## 1. Nature of the Project
-
-### 1.1 What LastParadox IS
-
-LastParadox is:
-- An **open-source privacy software project**
-- A **decentralized VPN application** using Tor and Hypercore technologies
-- A **community-driven initiative** with optional governance participation
-- **Experimental software** under active development
-
-### 1.2 What LastParadox IS NOT
-
-LastParadox is **NOT**:
-- An investment vehicle or financial product
-- A securities offering or token sale
-- A money transmission service
-- A custodial service for funds or assets
-- A registered financial institution
-- A guaranteed anonymity or security solution
+This notice applies to all LastParadox software, documentation, websites and related materials —
+**LastParadox VPN** and **LastParadox Recovery**. By downloading, using or contributing to them,
+you acknowledge that you have read and agree to this notice.
 
 ---
 
-## 2. No Financial Products or Securities
+## 1. What LastParadox is — and is not
 
-### 2.1 Explicit Disclaimer
+### 1.1 What it IS
 
-LastParadox does **NOT** offer, sell, or promote:
+- **LastParadox VPN** — a free client for the public Tor network that routes a whole device
+  through Tor and includes censorship-circumvention transports (Snowflake, obfs4).
+  It operates **no server of its own** in the traffic path.
+- **LastParadox Recovery** — a paid, read-only file-recovery tool for Windows, sold as a
+  one-time lifetime license.
+- **Independent software**, built and maintained by a small studio, under active development.
 
-| Category | Status |
-|----------|--------|
-| Investment opportunities | ❌ Not offered |
-| Securities or financial instruments | ❌ Not offered |
-| Dividends or profit-sharing | ❌ Not offered |
-| Token sales or presales | ❌ Not offered |
-| Initial Coin Offerings (ICO) | ❌ Not offered |
-| Guaranteed returns | ❌ Not offered |
-| Passive income schemes | ❌ Not offered |
+### 1.2 What it is NOT
 
-### 2.2 No Financial Advice
-
-Nothing in this repository, website, application, or any associated materials constitutes:
-- Financial advice
-- Investment advice
-- Legal advice
-- Tax advice
-- Professional advice of any kind
-
-Users should consult qualified professionals for such matters.
+- An investment, security, token or financial product of any kind
+- A money-transmission, custody or payment service
+- A guaranteed anonymity, security or data-recovery solution
+- A streaming / geo-unblocking service
+- A decentralized network, DAO or community-governed protocol
 
 ---
 
-## 3. Fair Pay Model — Service Access Only
+## 2. No token, no investment — explicitly
 
-### 3.1 Nature of Contributions
+Earlier versions of this notice (2024–March 2026) referred to a possible future token ("RWRD"),
+to contribution tiers, to an airdrop and to DAO governance. **All of that has been abandoned.**
 
-LastParadox operates on a **Fair Pay model**: full access is free for those who need it,
-and voluntary contributions from those who can afford it fund access for those who can't.
+- **No token exists, and none is planned.** There will be no sale, airdrop, allocation or
+  "eligibility" of any kind.
+- **No contributions or tiers.** The VPN is free for everyone, with identical features.
+  There is nothing to buy and nothing that confers rights.
+- **No DAO, no governance rights.** LastParadox is run by its maintainers.
+- **Nothing here is financial, investment, legal or tax advice.**
 
-Payments made at any contribution level are:
-
-| What They ARE | What They ARE NOT |
-|---------------|-------------------|
-| Voluntary service contributions | Investment contracts |
-| Software access payments | Token purchases |
-| Community solidarity funding | Securities |
-| One-time payments (no subscription) | Profit-sharing agreements |
-| Support for the free-access program | Financial instruments |
-
-### 3.2 Free Access Program
-
-LastParadox provides **free full access** to:
-- Journalists and war correspondents
-- Human rights defenders
-- NGOs and civil society organizations
-- Activists operating in high-risk environments
-- Anyone who cannot afford to contribute
-
-Free access is not a reduced tier. It gives identical access to all features.
-Application: [lastparadox.xyz/press](https://lastparadox.xyz/press)
-
-### 3.3 What Contributors Receive
-
-All users — whether paying or free — receive **identical product access**.
-Contributors additionally support the sustainability of the free-access program.
-
-Contributors do **NOT** receive:
-- Tokens or cryptocurrencies
-- Equity or ownership stakes
-- Profit distributions or dividends
-- Guaranteed future benefits
-- Refundable investments
-
-### 3.4 Contribution Levels
-
-| Level | Amount | Purpose |
-|-------|--------|---------|
-| Free | $0 | Full access — no justification required |
-| Solidarity | $3 | One-time · funds ~1 free user |
-| Recommended | $15 | One-time · funds ~5 free users |
-| Builder | $30 | One-time · maximum community support |
-
-All contributions are one-time payments. No subscription. No auto-renewal.
-
-### 3.5 No Refund as Investment Redemption
-
-Contributions are payments for services rendered and community support.
-Any refund policies follow standard software terms and are **not** investment redemptions.
+Anyone offering "LastParadox tokens", "pre-sales" or "allocations" is committing fraud.
+Report it to contact@lastparadox.xyz.
 
 ---
 
-## 4. Token Status — RWRD Does Not Exist
+## 3. Pricing
 
-### 4.1 Current Status
+| Product | Price | Nature |
+|---|---|---|
+| LastParadox VPN | **Free, forever** | No account, no payment, no tiers, no trial |
+| LastParadox Recovery — scan & preview | **Free, unlimited** | See exactly what is recoverable before paying anything |
+| LastParadox Recovery — full recovery | **€29, one-time** | Lifetime license for the purchaser's personal use; verified offline |
 
-As of the date of this document:
-- **No RWRD token exists**
-- **No token has been created, minted, or distributed**
-- **No token sale has occurred or is planned**
-- **No token allocation has been finalized**
-
-### 4.2 Future Token Possibility
-
-If a token is ever created:
-- It will require **formal DAO governance vote** with supermajority approval
-- It will require **legal compliance review** in applicable jurisdictions
-- It will be subject to **community consensus**
-- **No timeline is committed or promised**
-- **No allocation to any individual is guaranteed**
-
-### 4.3 Eligibility Disclaimer
-
-References to "eligibility" for future programs:
-- Do **NOT** constitute a promise or guarantee
-- Are subject to future DAO decisions
-- May be modified or cancelled at any time
-- Do not create any legal obligation
+Recovery payments are processed by a third-party payment processor; LastParadox never sees or
+stores your card details. A license is a **software license**, not an investment, share or
+refundable deposit. Refunds: if Recovery cannot recover files that the free scan showed as
+recoverable, contact us within 14 days of purchase — we will make it right or refund you.
 
 ---
 
-## 5. Software Disclaimer
+## 4. Software disclaimer
 
-### 5.1 "AS IS" Provision
+### 4.1 "AS IS"
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE
+AND NON-INFRINGEMENT.
 
-### 5.2 No Guarantee of Functionality
+### 4.2 No guarantee of outcome
 
-LastParadox does **NOT** guarantee:
-- Uninterrupted or error-free operation
-- Complete anonymity or privacy
-- Protection against all surveillance or attacks
-- Compatibility with all systems or networks
-- Availability in all jurisdictions
+**LastParadox VPN does not guarantee:**
+- uninterrupted operation, or connectivity from every network or country;
+- complete anonymity. Tor has known limits (traffic correlation by a global adversary, exit-node
+  snooping on unencrypted traffic, browser fingerprinting); a compromised device defeats any
+  network tool;
+- access to any particular website or service. Many platforms block Tor exits; that is their
+  choice and outside our control.
 
-### 5.3 Limitation of Liability
+**LastParadox Recovery does not guarantee:**
+- that any given file is recoverable. Data that has been overwritten is physically gone;
+- results on physically failing drives — for those, stop using the drive and consult a
+  professional laboratory.
 
-IN NO EVENT SHALL THE AUTHORS, CONTRIBUTORS, OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+### 4.3 Limitation of liability
 
-This includes but is not limited to:
-- Direct, indirect, incidental, or consequential damages
-- Loss of data, profits, or business opportunities
-- Security breaches or privacy violations
-- Legal consequences from software use
-- Third-party claims or actions
+IN NO EVENT SHALL THE AUTHORS, CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE, including direct, indirect, incidental or
+consequential damages; loss of data, profits or opportunity; security or privacy breaches; or
+legal consequences of use.
 
-### 5.4 Maximum Liability Cap
+### 4.4 Liability cap
 
-To the maximum extent permitted by applicable law, the total liability of LastParadox and its contributors for any claims arising from use of the software shall not exceed the amount paid by the user for the specific service in question during the twelve (12) months preceding the claim.
-
----
-
-## 6. User Responsibilities
-
-### 6.1 Legal Compliance
-
-Users are **solely responsible** for:
-- Compliance with all applicable local, national, and international laws
-- Understanding legal restrictions on VPN, Tor, or encryption use in their jurisdiction
-- Obtaining any required licenses or permissions
-- Tax obligations related to any cryptocurrency or digital assets
-- Consequences of their own actions while using the software
-
-### 6.2 Prohibited Uses
-
-Users agree **NOT** to use LastParadox for:
-- Any illegal activity under applicable law
-- Circumventing legal obligations or court orders
-- Harassment, abuse, or harm to others
-- Distribution of illegal content
-- Attacks on networks or systems
-- Any activity that violates third-party rights
-
-### 6.3 Jurisdictional Restrictions
-
-LastParadox software may not be legal to use in all jurisdictions. Users in restrictive jurisdictions use the software **at their own risk** and are responsible for understanding local laws regarding:
-- VPN usage
-- Tor network access
-- Encryption technologies
-- Privacy tools
+To the maximum extent permitted by law, total liability for any claim shall not exceed the
+amount the user paid for the specific product concerned in the twelve months preceding the
+claim — which, for the VPN, is zero.
 
 ---
 
-## 7. Intellectual Property
+## 5. User responsibilities
 
-### 7.1 Open Source Components
+### 5.1 Legal compliance
 
-LastParadox includes open-source components under various licenses (MIT, Apache 2.0, GPL, etc.). Users must comply with all applicable open-source licenses.
+You are solely responsible for:
+- complying with the laws that apply to you, including restrictions on VPN, Tor, encryption or
+  circumvention tools in your jurisdiction;
+- the consequences of your own actions while using the software.
 
-### 7.2 Trademarks
+### 5.2 Prohibited uses
 
-"LastParadox", the LastParadox logo, and related marks are trademarks of the LastParadox project. Use of these marks requires prior written permission except as permitted by applicable trademark law.
+You agree not to use LastParadox for any unlawful activity; to harass, defraud or harm others;
+to distribute illegal content; to attack networks or systems; or to infringe third-party rights.
+The VPN is also **not intended** for BitTorrent or bulk downloading — it strains volunteer Tor
+relays that people at risk depend on.
 
-### 7.3 User Content
+### 5.3 Jurisdictions
 
-Users retain ownership of any content they create or submit. By submitting content to LastParadox platforms, users grant a non-exclusive, worldwide, royalty-free license to use, display, and distribute such content in connection with the project.
-
----
-
-## 8. Privacy and Data
-
-### 8.1 Privacy Commitment
-
-LastParadox is designed with privacy as a core principle. However:
-- **No absolute privacy guarantee is made**
-- Technical limitations and vulnerabilities may exist
-- Third-party services may have their own privacy policies
-- Users are responsible for their own operational security
-
-### 8.2 Data Collection
-
-LastParadox minimizes data collection. Any data collected is subject to the Privacy Policy (if published separately). The software is designed to:
-- Not log user traffic or destinations
-- Not store personally identifiable information
-- Not share data with third parties for advertising
-
-### 8.3 Decentralized Nature
-
-Due to the decentralized nature of the network:
-- No single entity controls all data
-- Data may be replicated across nodes
-- Complete data deletion cannot be guaranteed for distributed data
+Tor and circumvention tools are restricted or criminalized in some countries. LastParadox
+deliberately helps people connect where Tor is blocked; **whether you may do so is your decision
+and your risk.** Understand your local situation before you connect.
 
 ---
 
-## 9. Third-Party Services
+## 6. Privacy and data
 
-### 9.1 No Endorsement
+### 6.1 VPN
 
-References to third-party services, protocols, or technologies (Tor, Hypercore, Solana, etc.) do not constitute endorsement. These projects have their own:
-- Terms of service
-- Privacy policies
-- Legal requirements
-- Risks and limitations
+- The VPN has **no LastParadox server in the traffic path**. We cannot see, log or store your
+  traffic, destinations or IP address, because nothing of ours is positioned to do so.
+- The app has **no account, no telemetry, and makes no calls home.**
+- The only remote services we operate are the installer download (we count downloads in
+  aggregate, with no per-user data) and a public feedback page (stores only what you type,
+  plus a short-lived rate-limit key).
 
-### 9.2 Third-Party Risks
+### 6.2 Recovery
 
-Users acknowledge that third-party services may:
-- Change their terms or functionality
-- Become unavailable
-- Have security vulnerabilities
-- Be subject to legal actions
+- Scanning and recovery happen **entirely on your machine**. Your files never leave it.
+- License verification is **offline** (Ed25519 signature). The only data exchanged with us is
+  what the payment processor requires to issue your license.
 
-LastParadox is not responsible for third-party service issues.
+### 6.3 Third parties
 
----
-
-## 10. Governance and DAO
-
-### 10.1 Decentralized Governance
-
-LastParadox aims to transition to decentralized governance (DAO). This means:
-- No single entity has complete control
-- Decisions are made by community vote
-- Outcomes depend on participant consensus
-- No individual can guarantee specific results
-
-### 10.2 Governance Participation
-
-Participation in governance:
-- Does not create employment or contractor relationships
-- Does not guarantee influence over outcomes
-- Is subject to governance rules as they evolve
-- May be modified by future governance decisions
-
-### 10.3 No Fiduciary Duty
-
-Neither LastParadox nor its contributors owe fiduciary duties to users, contributors, or governance participants. Decisions are made in good faith but without legal obligation to any specific outcome.
+Tor Project (Tor, Snowflake, obfs4), Microsoft (Windows), Cloudflare (download and feedback
+hosting), Vercel (website), and the payment processor each have their own terms and policies.
+References to them are not endorsements, and we are not responsible for their services.
 
 ---
 
-## 11. Amendments and Updates
+## 7. Intellectual property
 
-### 11.1 Right to Modify
-
-LastParadox reserves the right to modify this Legal Notice at any time. Changes will be:
-- Posted in the repository
-- Dated with version number
-- Effective upon posting unless otherwise stated
-
-### 11.2 User Responsibility
-
-Users are responsible for reviewing this notice periodically. Continued use after modifications constitutes acceptance of changes.
+- "LastParadox", its logos and marks are trademarks of the LastParadox project. Use requires
+  prior written permission except as permitted by trademark law.
+- LastParadox includes open-source components (notably Tor and its pluggable transports, under
+  their respective licenses). Those licenses apply to those components.
+- Application source code is proprietary unless and until released under an open-source license.
 
 ---
 
-## 12. Severability
+## 8. Amendments
 
-If any provision of this Legal Notice is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions shall remain in full force and effect.
+This notice may be updated at any time. Changes are posted in this repository with a new version
+number and date, and take effect on posting. Continued use after a change constitutes acceptance.
 
----
+## 9. Severability · Entire agreement
 
-## 13. Entire Agreement
+If any provision is unenforceable, it is limited to the minimum extent necessary and the rest
+remains in force. This notice, with any referenced policies, is the entire agreement on its
+subject matter.
 
-This Legal Notice, together with any referenced policies (Privacy Policy, Terms of Service), constitutes the entire agreement between users and LastParadox regarding the subject matter herein.
+## 10. Governing law and disputes
 
----
+Users and contributors are subject to their own local laws. Disputes should first be raised
+directly with the project (contact below); legal proceedings are a last resort and are governed
+by the law applicable to the parties concerned. To the extent permitted by law, users waive
+participation in class actions against LastParadox or its contributors.
 
-## 14. Governing Law and Disputes
-
-### 14.1 Decentralized Nature
-
-As a decentralized project, LastParadox does not have a single legal jurisdiction. However:
-- Contributors and users are subject to their own local laws
-- Disputes should first be addressed through community governance
-- Legal proceedings, if necessary, shall be governed by the laws applicable to the relevant parties
-
-### 14.2 Dispute Resolution
-
-Users agree to attempt good-faith resolution of disputes through:
-1. Direct communication with the project team
-2. Community governance mechanisms
-3. Mediation (if agreed by parties)
-4. Legal proceedings only as a last resort
-
-### 14.3 Class Action Waiver
-
-To the extent permitted by law, users waive any right to participate in class action lawsuits or class-wide arbitration against LastParadox or its contributors.
-
----
-
-## 15. Contact Information
-
-For legal inquiries, compliance questions, or to report violations:
+## 11. Contact
 
 - **Email:** contact@lastparadox.xyz
 - **GitHub:** https://github.com/Lastexitfromnowhere
-- **Response Time:** Best effort, no guaranteed timeline
+- **Response time:** best effort — a small team, no guaranteed timeline
 
 ---
 
-## 16. Acknowledgment
+## 12. Acknowledgment
 
-By using LastParadox software or services, you acknowledge that:
+By using LastParadox software you acknowledge that:
 
-- [x] You have read and understood this Legal Notice
-- [x] You agree to be bound by its terms
-- [x] You understand this is experimental software
-- [x] You accept all risks associated with use
-- [x] You are solely responsible for legal compliance in your jurisdiction
-- [x] You understand no tokens exist and none are guaranteed
-- [x] You understand contributions are voluntary service payments, not investments
-- [x] You understand that free access is available and that paid contributions fund others
+- [x] you have read and understood this notice and agree to it;
+- [x] this is independent software provided as is, with no guarantee of anonymity or recovery;
+- [x] you are responsible for legal compliance where you are;
+- [x] **no token, contribution tier, airdrop or DAO exists or is planned**;
+- [x] the VPN is free and the only paid product is the Recovery license.
 
 ---
 
-## Document History
+## Document history
 
 | Version | Date | Changes |
-|---------|------|---------|
+|---|---|---|
 | 1.0 | 2024 | Initial release |
-| 2.0 | December 2025 | Complete rewrite: removed "Investor" terminology, added comprehensive disclaimers, liability limitations, and user responsibilities |
-| 3.0 | March 30, 2026 | Fair Pay model: replaced tiered subscriptions with one-time solidarity contributions + free access program for journalists, NGOs, and activists |
+| 2.0 | December 2025 | Removed "investor" terminology; added disclaimers and liability limits |
+| 3.0 | March 30, 2026 | Fair Pay model: one-time solidarity contributions + free-access program |
+| **4.0** | **August 21, 2026** | **Freemium: VPN free for all, contributions and token/DAO plans abandoned; covers LastParadox Recovery (€29 license); removed "decentralized network" language — the VPN is a Tor client with no server of ours; new contact domain** |
 
----
-
-<p align="center">
-
-**This document protects both the project and its users.**
-
-*Privacy-first. Transparency-first. Compliance-first.*
-
-</p>
+<p align="center"><em>Privacy-first. Honesty-first. No promises we can't keep.</em></p>

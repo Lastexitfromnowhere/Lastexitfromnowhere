@@ -1,227 +1,85 @@
-<p align="center">
-  <img src="https://lastparadox.xyz/assets/banner5.png" alt="LastParadox Banner" width="100%"/>
-</p>
-
 <h1 align="center">📦 Repository Structure</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Public%20Repo-Documentation-7D4698?style=for-the-badge" alt="Public"/>
-  <img src="https://img.shields.io/badge/Private%20Repo-Source%20Code-FF6B6B?style=for-the-badge" alt="Private"/>
+  <img src="https://img.shields.io/badge/Public%20Repo-Documentation-46D5E0?style=for-the-badge&labelColor=000000" alt="Public"/>
+  <img src="https://img.shields.io/badge/Private%20Repos-Source%20Code-8d929c?style=for-the-badge&labelColor=000000" alt="Private"/>
 </p>
 
 ---
 
-## 🔍 Why Only Documentation Here?
+## What is here
 
-This public repository contains **documentation only**. The source code is maintained in **private repositories** for security reasons.
-
-### Why Keep Code Private?
-
-| Reason | Explanation |
-|--------|-------------|
-| 🔐 **Security** | Prevents exposure of security-sensitive implementation details |
-| 🛡️ **Zero-Day Protection** | Reduces attack surface before security audits are complete |
-| 🔑 **Key Management** | Protects cryptographic implementation patterns |
-| 🧪 **Pre-Audit Phase** | Code will be open-sourced after professional security audit |
-
----
-
-## 📂 Repository Overview
-
-### This Repository (Public)
+This public repository holds **documentation only** for the LastParadox ecosystem:
 
 ```
-Lastparad0xvP/
-├── README.md              # Project overview
-├── WHITEPAPER.md          # Technical whitepaper
-├── TOKENOMICS.md          # Economic model
-├── LEGAL.md               # Legal disclaimers
-├── vaultPRIVACY.md        # Vault extension privacy policy
-├── CODE_NOTICE.md         # This file
-└── banner.png             # Project banner
+Lastexitfromnowhere/
+├── README.md        # Ecosystem overview — VPN (disappear) + Recovery (reappear)
+├── WHITEPAPER.md    # VPN technical overview, threat model, honest limitations
+├── SECURITY.md      # How to report a vulnerability
+├── LEGAL.md         # Legal notice & disclaimers
+└── CODE_NOTICE.md   # This file
 ```
 
-### Private Repositories
+The application source lives in private repositories.
 
-| Repository | Contents | Status |
-|------------|----------|--------|
-| `lp-flutter` | Flutter Desktop Client (Dart) | 🔒 Private |
-| `lp-daemon` | Node.js Daemon (TypeScript) | 🔒 Private |
-| `lp-keeper` | Keeper VPS Backend | 🔒 Private |
-| `lp-circuits` | ZK-SNARK Circuits (Circom) | 🔒 Private |
-| `identity-shield` | Breach Monitoring Service | 🔒 Private |
+## Why the code is private (for now)
 
----
+Honest answer: this is a one-developer studio, and the code has not had an independent review.
+Publishing it today would mostly expose half-finished internals, not make anyone safer. We would
+rather open it once it is signed, tidied and has had outside eyes on it — **no date is promised**.
 
-## 🛠️ Technology Stack
+What you *can* verify without the source:
 
-Even though the code is private, here's what powers LastParadox:
+- **The parts that matter for safety are already open source and not ours.** LastParadox ships
+  the official `tor.exe` and the official pluggable-transport binaries (`snowflake-client`,
+  `lyrebird`) unmodified. Our code orchestrates them; it does not touch the cryptography.
+- **There is no server to trust.** The VPN has no LastParadox backend in the traffic path.
+  Watch the network: the app talks to `127.0.0.1` and to the Tor network, nothing else.
+- **Integrity check.** The app hashes its critical binaries on first run and flags any later change.
+- **Recovery is read-only by construction.** Its disk layer exposes no write method. Run it from a
+  USB stick on a drive you don't care about and watch the write counter stay at zero.
 
-<table>
-<tr>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/><br/>
-<sub>Desktop Client</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/><br/>
-<sub>Daemon & APIs</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=torproject&logoColor=white" alt="Tor"/><br/>
-<sub>Anonymity Layer</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/Hypercore-FF6B6B?style=for-the-badge" alt="Hypercore"/><br/>
-<sub>P2P Data Layer</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/ZK--SNARKs-00D4AA?style=for-the-badge" alt="ZK"/><br/>
-<sub>Authentication</sub>
-</td>
-</tr>
-</table>
+## Private repositories
 
-### Detailed Stack
+| Repository | Contents | Stack |
+|---|---|---|
+| `LastParadox-VPN` | Desktop client + embedded daemon | Flutter / Dart · Tor · tun2socks / wintun |
+| `phoenix-recover` | LastParadox Recovery (file recovery) | Native Windows, portable |
+| `lastparadox-home`, `LandingLast` | Websites | Static HTML · Cloudflare Workers · Vercel |
+| `downloads-worker`, `feedback-worker` | Installer CDN + counter · public feedback page | Cloudflare Workers · R2 · D1 |
 
-| Layer | Technology | Purpose |
-|-------|------------|---------|
-| **Frontend** | Flutter 3.x (Dart) | Cross-platform desktop UI |
-| **Backend** | Node.js 20.x + Fastify | Local daemon, API server |
-| **Networking** | Tor (SOCKS5) | Traffic anonymization |
-| **P2P** | Hypercore/Hyperbee/Hyperswarm | Decentralized data sync |
-| **Crypto** | snarkjs (Groth16) | Zero-knowledge proofs |
-| **Storage** | LevelDB, DPAPI (Windows) | Local encrypted storage |
-| **Payments** | Solana, Stripe | Cryptocurrency & fiat |
+## Technology stack
 
----
+| Layer | Technology | Notes |
+|---|---|---|
+| Desktop UI | Flutter 3 (Dart) | Windows x64 |
+| Local daemon | Dart (embedded in the app) | `127.0.0.1:9124` — replaced the former Node.js daemon |
+| Anonymity | Tor (official binary) | SOCKS5, control port, DNS over Tor |
+| Censorship bypass | Snowflake, obfs4 (lyrebird) | Tor's official pluggable transports |
+| Whole-device routing | tun2socks + wintun | Virtual adapter, kill switch |
+| Mobile | Android client | |
+| Distribution | Cloudflare R2 + Worker | Stable URL, public download counter |
+| Recovery licensing | Ed25519 signed licenses | Verified offline, forever |
 
-## 🗓️ Open Source Roadmap
+Things you may find in older documents or forks that are **no longer part of the product**:
+Hypercore / Hyperswarm P2P layer, zero-knowledge (snarkjs) authentication, Keeper VPS, Identity
+Shield, Vault password manager, Solana/Stripe contribution tiers, token or DAO plans. They were
+removed in the 2026 simplification.
 
-We plan to open-source the code progressively:
+## Want to look at the code?
 
-| Phase | Timeline | What Will Be Released |
-|-------|----------|----------------------|
-| **Phase 1** | After Security Audit | ZK Circuits (Circom) |
-| **Phase 2** | Q2 2026 | Client SDK & APIs |
-| **Phase 3** | Q3 2026 | Full Client Source |
-| **Phase 4** | TBD (DAO Vote) | Complete Codebase |
+- **Security researchers** — write to **contact@lastparadox.xyz** with your background and what
+  you'd like to review. Read access to a private repo can be arranged case by case.
+- **Everyone else** — the fastest way to help is to run the app in the field and tell us what
+  breaks: [feedback.lastparadox.dev](https://feedback.lastparadox.dev) or
+  [Discord](https://discord.gg/nnZGYNU8Dp).
 
-### Conditions for Open-Sourcing
-
-- ✅ Professional security audit completed
-- ✅ Critical vulnerabilities patched
-- ✅ DAO governance approval
-- ✅ Documentation complete
-
----
-
-## 🔒 Security First Approach
-
-We follow a **"security-first, open-source later"** philosophy:
-
-```
-Build → Audit → Patch → Document → Open Source
-  ↑                                      │
-  └──────────────────────────────────────┘
-              Continuous Improvement
-```
-
-This approach is common in security-critical projects:
-- **Signal** kept code private during early development
-- **1Password** has proprietary core with open protocols
-- **ProtonMail** gradually open-sourced over years
-
----
-
-## 👀 Want to See the Code?
-
-### For Security Researchers
-
-If you're a security researcher interested in auditing our code:
-
-1. Contact us at **security@lastparadox.xyz**
-2. Sign NDA (standard security researcher terms)
-3. Receive access to private repositories
-4. Report findings through responsible disclosure
-
-### For Contributors
-
-Interested in contributing?
-
-1. Join our [Discord](https://discord.gg/nnZGYNU8Dp)
-2. Introduce yourself in `#dev-contributors`
-3. Discuss your skills and interests
-4. We'll evaluate and potentially grant access
-
-### For Investors / Partners
-
-For business inquiries and partnership discussions:
-
-- Email: **contact@lastparadox.xyz**
-- Include your background and interest
-
----
-
-## 📊 Code Statistics (Private Repos)
-
-| Metric | Value |
-|--------|-------|
-| **Total Lines of Code** | ~25,000+ |
-| **Languages** | Dart, TypeScript, Circom |
-| **Commits** | 500+ |
-| **Active Development** | Since 2024 |
-
----
-
-## ❓ FAQ
-
-### "Is this a scam with no real code?"
-
-**No.** The application is fully functional and available for download. The code exists and is actively maintained — it's simply not public yet for security reasons.
-
-### "When will you open source?"
-
-After completing our security audit and patching any discovered vulnerabilities. We're committed to transparency but prioritize user safety.
-
-### "Can I verify the app is safe?"
-
-- Download from official sources only
-- Check file hashes (published on release)
-- Run in a sandbox/VM if concerned
-- Wait for third-party security audit results
-
-### "Why should I trust you?"
-
-- Active community on Discord
-- Regular updates and communication
-- Transparent documentation
-- Working product you can test
-- Commitment to future open-sourcing
-
----
-
-## 🔗 Links
+## Links
 
 <p align="center">
-  <a href="https://lastparadox.xyz">
-    <img src="https://img.shields.io/badge/🌐_Website-lastparadox.xyz-00C853?style=for-the-badge" alt="Website"/>
-  </a>
-  <a href="https://discord.gg/nnZGYNU8Dp">
-    <img src="https://img.shields.io/badge/💬_Discord-Join_Us-5865F2?style=for-the-badge" alt="Discord"/>
-  </a>
-  <a href="https://x.com/LastParadox__">
-    <img src="https://img.shields.io/badge/🐦_X-@LastParadox__-000000?style=for-the-badge" alt="X"/>
-  </a>
+  <a href="https://lastparadox.dev"><img src="https://img.shields.io/badge/🏠_Ecosystem-lastparadox.dev-F5F2EC?style=for-the-badge&labelColor=000000" alt="Ecosystem"/></a>
+  <a href="https://lastparadox.xyz"><img src="https://img.shields.io/badge/🧅_VPN-lastparadox.xyz-46D5E0?style=for-the-badge&labelColor=000000" alt="VPN"/></a>
+  <a href="https://recovery.lastparadox.dev"><img src="https://img.shields.io/badge/🔥_Recovery-recovery.lastparadox.dev-FF5A1F?style=for-the-badge" alt="Recovery"/></a>
 </p>
 
----
-
-<p align="center">
-  <strong>🛡️ Security First. Transparency Second. Both Non-Negotiable.</strong>
-</p>
-
-<p align="center">
-  <sub>© 2025 LastParadox Project — All rights reserved</sub>
-</p>
-
+<p align="center"><sub>© 2025–2026 LastParadox — All rights reserved · See <a href="./LEGAL.md">LEGAL.md</a></sub></p>
