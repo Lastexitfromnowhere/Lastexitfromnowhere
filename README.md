@@ -7,7 +7,7 @@
 <p align="center">
   We build both ends of the digital paradox:<br/>
   the art of <strong>disappearing without a trace</strong>, and the art of <strong>bringing back what was lost</strong>.<br/>
-  <sub>Two tools. One conviction — <strong>cryptography over promises</strong>.</sub>
+  <sub>Two flagship tools, a calm notebook, one conviction — <strong>cryptography over promises</strong>, and software that runs <strong>on your machine</strong>.</sub>
 </p>
 
 <p align="center">
@@ -19,6 +19,9 @@
   </a>
   <a href="https://recovery.lastparadox.dev">
     <img src="https://img.shields.io/badge/🔥_Recovery-recovery.lastparadox.dev-FF5A1F?style=for-the-badge" alt="Recovery"/>
+  </a>
+  <a href="https://retrodeck.lastparadox.dev">
+    <img src="https://img.shields.io/badge/📓_RETRO--DECK-retrodeck.lastparadox.dev-111110?style=for-the-badge&labelColor=EAE9E4" alt="RETRO-DECK"/>
   </a>
 </p>
 
@@ -154,12 +157,24 @@ with your own eyes**, and you only pay if they're recoverable.
 
 ---
 
+## 🌍 Why local?
+
+Every video you scroll past, every file that syncs, goes through a data center. One gesture is almost nothing. Billions a day is another story: by 2030, data centers will use as much electricity as Japan does today ([IEA, *Energy and AI*, 2025](https://www.iea.org/reports/energy-and-ai)).
+
+We're not quitting the internet. But not everything needs to go through it: **what can run on your machine, we run on your machine.** Fewer round trips, nothing less.
+
+> **Honest scope:** some tools need the network (the VPN, ModeOp) — each tool's page says so. We make no environmental claim we can't show: the hub [lastparadox.dev](https://lastparadox.dev) measures its own weight, cookies and requests live, in your browser.
+
+---
+
 ## 🛠️ Also built
 
 Beyond the paradox — other things I ship as a developer:
 
 | | | |
 |---|---|---|
+| 📓 **RETRO-DECK MD-1** | A calm, local, offline work notebook: three tasks a day, one thing at a time, your notes as plain .md files on your PC. One-time purchase, no account. | [retrodeck.lastparadox.dev](https://retrodeck.lastparadox.dev/) · [source of the showcase](https://github.com/Lastexitfromnowhere/retro-deck) |
+| 🎬 **Video Labs** | Short-video studio that runs on your PC: script, voice-over, subtitles, automatic editing. Pay once, no subscription. | [labs.lastparadox.dev](https://labs.lastparadox.dev/) |
 | 🦺 **ModeOp SS4** | French regulatory SaaS — generates compliant asbestos sub-section 4 work procedures in 20 minutes. Every value sourced and dated (NF X46-102, VLEP, RAAT). | [modeop.lastparadox.dev](https://modeop.lastparadox.dev/) |
 | 🏈 **BL Study & Sports Consulting** | Bilingual site for a US-based agency guiding European athletes to NCAA / NAIA / NJCAA scholarships — from profile review to signature. | [blstudysportsconsulting.com](https://www.blstudysportsconsulting.com/) |
 
